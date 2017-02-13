@@ -1,3 +1,325 @@
+/*** uncss> filename: css/bootstrap/bootstrap.min.css ***/
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}footer,header,nav,section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}strong{font-weight:700}h1{margin:.67em 0;font-size:2em}input,select,textarea{margin:0;font:inherit;color:inherit}select{text-transform:none}input[type=submit]{-webkit-appearance:button;cursor:pointer}input::-moz-focus-inner{padding:0;border:0}input{line-height:normal}textarea{overflow:auto}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:before,:after{color:#000!important;text-shadow:none!important;background:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}select{background:#fff!important}}@font-face{font-family:'Glyphicons Halflings';src:url("../fonts/glyphicons-halflings-regular.eot");src:url("../fonts/glyphicons-halflings-regular-.eot#iefix") format('embedded-opentype'),url("../fonts/glyphicons-halflings-regular.woff") format('woff'),url("../fonts/glyphicons-halflings-regular.ttf") format('truetype'),url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}h1,h2,h3,.h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1,.h1,h2,h3{margin-top:20px;margin-bottom:10px}h1,.h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}p{margin:0 0 10px}.text-center{text-align:center}ul{margin-top:0;margin-bottom:10px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-md-4,.col-md-6,.col-md-8,.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:992px){.col-md-4,.col-md-6,.col-md-8,.col-md-12{float:left}.col-md-12{width:100%}.col-md-8{width:66.66666667%}.col-md-6{width:50%}.col-md-4{width:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#999;opacity:1}.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}textarea.form-control{height:auto}.form-group{margin-bottom:15px}.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.container:after,.row:after{clear:both}@-ms-viewport{width:device-width} 
+/*** uncss> filename: css/preloader.css ***/
+#preloader{
+	background-color:#f6f6f6;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0; 
+	z-index:9999;
+}
+ 
+/*** uncss> filename: css/preloader-default.css ***/
+/* HEART ZOOM */
+@-webkit-keyframes heart-zoom {
+  0%, 100%   {
+    -webkit-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -webkit-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@-moz-keyframes heart-zoom  {
+  0%, 100%   {
+    -moz-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -moz-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@-ms-keyframes heart-zoom  {
+  0%, 100%   {
+    -ms-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -ms-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@-o-keyframes heart-zoom  {
+  0%, 100%   {
+    -o-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -o-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@keyframes heart-zoom  {
+  0%, 100%   {
+    transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+
+/* HEART ZOOM REVERSE */
+@-webkit-keyframes heart-zoom-reverse {
+  0%, 100%   {
+    -webkit-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -webkit-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@-moz-keyframes heart-zoom-reverse {
+  0%, 100%   {
+    -moz-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -moz-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@-ms-keyframes heart-zoom-reverse {
+  0%, 100%   {
+    -ms-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -ms-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@-o-keyframes heart-zoom-reverse  {
+  0%, 100%   {
+    -o-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -o-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@keyframes heart-zoom-reverse  {
+  0%, 100%   {
+    transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+
+.heart-animation {
+	display:inline-block;
+	margin:0 15px;
+	font-size:20px; 
+	line-height:20px;
+	letter-spacing:-20px;
+	
+	-webkit-animation: heart-zoom infinite 1.2s;
+  	   -moz-animation: heart-zoom infinite 1.2s;
+ 	    -ms-animation: heart-zoom infinite 1.2s;
+  	     -o-animation: heart-zoom infinite 1.2s;
+  	        animation: heart-zoom infinite 1.2s;
+}
+
+.heart-animation i{
+	color:#4f73b1;
+}
+
+.heart-animation-reverse {
+	display:inline-block;
+	margin:0 auto; 
+	padding-right:20px;
+	font-size:20px; 
+	line-height:20px;
+	
+    -webkit-animation: heart-zoom-reverse infinite 1.2s;
+  	   -moz-animation: heart-zoom-reverse infinite 1.2s;
+ 	    -ms-animation: heart-zoom-reverse infinite 1.2s;
+  	     -o-animation: heart-zoom-reverse infinite 1.2s;
+  	        animation: heart-zoom-reverse infinite 1.2s;
+}
+
+.heart-animation-reverse i{
+	color:#999;
+} 
+/*** uncss> filename: css/flexslider/flexslider.css ***/
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+/* Browser Resets
+*********************************/
+.flexslider a:active,
+.flexslider a:focus  {outline: none;}
+.slides {margin: 0; padding: 0; list-style: none;}
+
+/* Icon Fonts
+*********************************/
+/* Font-face Icons */
+@font-face {
+	font-family: 'flexslider-icon';
+	src:url('fonts/flexslider-icon.eot');
+	src:url('fonts/flexslider-icon-.eot#iefix') format('embedded-opentype'),
+		url('fonts/flexslider-icon.woff') format('woff'),
+		url('fonts/flexslider-icon.ttf') format('truetype'),
+		url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+
+/* Clearfix for the .slides element */
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { margin: 0 0 60px; background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
+.flexslider .slides { zoom: 1; }
+
+/* Direction Nav */
+
+/* Pause/Play */
+
+/* Control Nav */
+ 
+/*** uncss> filename: css/animate/animate.css ***/
+@charset "UTF-8";
+/*
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+
+Copyright (c) 2013 Daniel Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/*body {  Addresses a small issue in webkit: http://bit.ly/NEdoDq 
+	-webkit-backface-visibility: hidden;
+}*/
+
+.delay1 {
+	-webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+			animation-delay: 0.5s; 
+}
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+
+/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+
+/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+ 
+/*** uncss> filename: css/countdown/jquery.countdown.css ***/
+/* jQuery Countdown styles 2.0.0. */
+ 
+/*** uncss> filename: css/magnific-popup/magnific-popup.css ***/
+/* Magnific Popup CSS */
+
+/* Main image in popup */
+
+/* The shadow behind the image */
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */ }
+ 
+/*** uncss> filename: css/fonts/ionicons-2.0.1/ionicons.min.css ***/
+@charset "UTF-8";/*!
+  Ionicons, v2.0.0
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/benjsperry  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+
+  Android-style icons originally built by Google’s
+  Material Design Icons: https://github.com/google/material-design-icons
+  used under CC BY http://creativecommons.org/licenses/by/4.0/
+  Modified icons to fit ionicon’s grid from original.
+*/@font-face{font-family:"Ionicons";src:url("fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0");src:url("fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"),url("fonts/ionicons-2.0.1/ionicons.ttf?v=2.0.0") format("truetype"),url("fonts/ionicons-2.0.1/ionicons.woff?v=2.0.0") format("woff"),url("fonts/ionicons-2.0.1/ionicons.svg?v=2.0.0#Ionicons") format("svg");font-weight:normal;font-style:normal}.ion-heart:before,.ion-ios-bell:before,.ion-ios-home:before,.ion-model-s:before,.ion-wineglass:before{display:inline-block;font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ion-heart:before{content:"\f141"}.ion-ios-bell:before{content:"\f3e2"}.ion-ios-home:before{content:"\f448"}.ion-model-s:before{content:"\f2c1"}.ion-wineglass:before{content:"\f2b9"}
+ 
+/*** uncss> filename: https://fonts.googleapis.com/css?family=Oswald:300,200 ***/
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v12/gov12z69psR1Uu7UJEfiUqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v12/HqHm7BVC_nzzTui2lzQTDaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+ 
+/*** uncss> filename: https://fonts.googleapis.com/css?family=Arvo:400,700 ***/
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/MViwy4K6e56oHcyeMzjbCQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arvo Bold'), local('Arvo-Bold'), url(https://fonts.gstatic.com/s/arvo/v9/F-uvpIj1hF17IDyvQvI50Q.ttf) format('truetype');
+}
+ 
+/*** uncss> filename: https://fonts.googleapis.com/css?family=Dancing+Script ***/
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v8/DK0eTGXiZjN6yA8zAEyM2S5FJMZltoAAwO2fP7iHu2o.ttf) format('truetype');
+}
+ 
+/*** uncss> filename: css/style.css ***/
 @charset "utf-8";
 
 /*============================== 
@@ -208,58 +530,32 @@ body{
 	font-size:15px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3{
 	font-family: 'Oswald', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6,
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+h1, h2, h3{
 	color:#333333;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, 
-h4 a:hover, h5 a:hover, h6 a:hover{
-	color:#4f73b1;
-}
-
-h1, h2, h3,
-.h1, .h2, .h3{
+h1, h2, h3, .h1{
 	 margin-top: 20px;
   margin-bottom: 20px;
-}
-
-h4, h5, h6
-.h4, .h5, .h6{
-	 margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 h1, .h1{
 	font-size:40px;
 }
 
-h2, .h2{
+h2{
 	font-size:30px;
 }
 
-h3, .h3{
+h3{
 	font-size:20px;
 }
 
-h4, .h4{
-	font-size:16px;
-}
-
-h5, .h5{
-  font-size: 14px;
-}
-
-h6, .h6{
-  font-size: 12px;
-}
-
-h1.inline, h2.inline, h3.inline,
-h4.inline, h5.inline, h6.inline{
+h3.inline{
 	display:inline;
 	vertical-align:middle; 
 }
@@ -269,12 +565,6 @@ p{
 	font-size:15px;
 	line-height:26px;
 	margin-bottom:25px;
-}
-
-p.lead{
-	font-size:19px;
-	line-height:28px;
-	font-weight:normal;
 }
 
 a{
@@ -288,22 +578,6 @@ a:hover{
 
 .clearboth{
 	clear:both;
-}
-
-.no-padding{
-	padding:0;
-}
-
-.no-margin{
-	margin:0;
-}
-
-img.fullwidth{
-	width:100%;
-}
-
-img.with-border{
-	border:1px solid #6a6a6a;
 }
 
 
@@ -328,13 +602,6 @@ img.with-border{
 
 /* 02.1.1 Fixed-width 							 */
 /* ----------------------------------------------*/
-#nav-bar.fixed-width #nav-wrapper{
-	position:relative;
-	height:inherit;
-	width:1170px;
-	margin:0 auto;	
-	padding:0 30px;	
-}
 
 /* 02.1.2 Fluid-width 							 */
 /* ----------------------------------------------*/
@@ -347,30 +614,9 @@ img.with-border{
 
 /* 02.1.3 Top Bar 								 */
 /* ----------------------------------------------*/
-#nav-bar.top-bar{
-	position:absolute;
-	/*background-color:transparent;*/
-	margin:auto; 
-	left:0; 
-	right:0;
-}
-
-#nav-bar.top-bar.stick-it{
-	position:fixed;
-	height:145px; 
-	width:100%;
-	background-color:#FFF;
-	z-index:1500;
-	/*-webkit-transform: translateZ(0);*/
-}
 
 /* 02.1.4 Bottom Bar 							 */
 /* ----------------------------------------------*/
-#nav-bar.bottom-bar.inside{
-	position:absolute;
-	/*background-color:transparent;*/
-	bottom:0;
-}
 
 #nav-bar.bottom-bar.outside{
 	position:absolute;
@@ -378,24 +624,8 @@ img.with-border{
 	bottom:-145px;
 }
 
-#nav-bar.bottom-bar.stick-it{
-	position:fixed;
-	height:145px; 
-	width:100%;
-	background-color:#FFF;
-	z-index:1500;
-	top:0;
-	bottom:auto;
-	/*-webkit-transform: translateZ(0)*/
-	
-}
-
 /* 02.1.5 Transparent & Block Color 			 */
 /* ----------------------------------------------*/
-#nav-bar.transparent{
-	/*position:relative;*/ 
-	background-color:transparent;
-}
 
 #nav-bar.block-color{
 	/*position:relative; */ 
@@ -448,27 +678,9 @@ img.with-border{
 
 /* 02.2.2 Nav Left 								 */
 /* ----------------------------------------------*/
-#nav-bar.nav-left .logo-wrapper{
-	float:right;
-}
-
-#nav-bar.nav-left #nav-menu{
-	float:left;
-	text-align:left;
-	width:90%;
-}
 
 /* 02.2.3 Nav Right 							 */
 /* ----------------------------------------------*/
-#nav-bar.nav-right .logo-wrapper{
-	float:left;
-}
-
-#nav-bar.nav-right #nav-menu{
-	float:right;
-	text-align:right;
-	width:90%;
-}
 
 
 /*===============================================*/
@@ -511,27 +723,9 @@ img.with-border{
 
 /* 03.1.1 Transparent 							 */
 /* ----------------------------------------------*/
-.transparent #nav-menu > li a{
-	color:#FFF;
-}
-
-.transparent #nav-menu > li a:hover{
-	color:#4f73b1;
-}
-
-.transparent.stick-it #nav-menu > li a{
-	color:#666
-}
 
 /* 03.1.2 Additional Class For Nav Center 		 */
 /* ----------------------------------------------*/
-.first-child-margin{
-	margin-left:20px;
-}
-
-.last-child-margin{
-	margin-right:0px;
-}
 
 .split-margin{
 	margin-left:80px;
@@ -540,68 +734,15 @@ img.with-border{
 /* ----------------------------------------------*/
 /* 03.2 Child Menu								 */
 /* ----------------------------------------------*/
-#nav-menu ul{
-	position:absolute;
-	display:none;
-	width:200px;	
-	left:0;
-	list-style-type:none;
-	padding:0;
-	text-align:left;
-	border-top:solid 3px #4f73b1
-}
-
-#nav-menu li:hover > ul{
-	display:block;
-}
-
-#nav-menu ul li{
-	position:relative;
-	width:100%;
-}
-
-#nav-menu ul li a{
-	display:block;
-	width:100%;
-	background-color:#FFF;
-	border-bottom:solid thin #f4f2f2;
-}   
-
-#nav-menu ul li a:hover{
-	background-color:#4f73b1;
-	border:none;
-	color:#FFF;
-}
 
 /* 03.2.1 Reset Transparent Child Menu Color	 */
 /* ----------------------------------------------*/
-.transparent #nav-menu ul li a{
-	color:#666;
-}
-
-.transparent #nav-menu ul li a:hover{
-	color:#FFF;
-}
 
 /* 03.2.2 Child-Parent Arrow 					 */
 /* ----------------------------------------------*/
-#nav-menu li > ul li a:after { 
-	content: '>'; 
-	position:absolute;
-	right:15px;
-} 
-
-#nav-menu li > ul li a:only-child:after { 
-	content: ''; 
-}
 
 /* 03.2.3 More Child 						  	 */
 /* ----------------------------------------------*/
-#nav-menu ul ul{
-	top:0;
-	left:100%;
-	border:none;
-}
 
 
 /* ----------------------------------------------*/
@@ -611,13 +752,8 @@ img.with-border{
 	display:none;
 }
 
-#mobile-nav,
-.transparent.stick-it #mobile-nav{
+#mobile-nav{
 	color:#666;
-}
-
-.transparent #mobile-nav{
-	color:#FFF;
 }
 
 
@@ -630,49 +766,18 @@ img.with-border{
 /* ----------------------------------------------*/
 /* 04.1 Menuicon Bar Width & Position 			 */
 /*-----------------------------------------------*/
-#menuicon-bar{
-	position:absolute;
-	height:145px; 
-	z-index:1000;
-	background-color:transparent;
-	margin:auto;
-	top:30px;
-	left:0;
-	right:0;
-	padding:0 80px;
-}
 
 /* 04.1.1 Fixed-width */
 /* ----------------------------------------------*/
-#menuicon-bar.fixed-width{
-	width:1170px;
-}
 
 /* 04.1.2 Fluid-width */
 /* ----------------------------------------------*/
-#menuicon-bar.fluid-width{
-	width:100%;
-}
 
 /* 04.1.3 Menuicon-Left */
 /* ----------------------------------------------*/
-#menuicon-bar.menuicon-left .logo-outter-wrapper{
-	float:right;
-}
-
-#menuicon-bar.menuicon-left #menu-icon{
-	float:left;
-}
 
 /* 04.1.4 Menuicon-Right */
 /* ----------------------------------------------*/
-#menuicon-bar.menuicon-right .logo-outter-wrapper{
-	float:left;
-}
-
-#menuicon-bar.menuicon-right #menu-icon{
-	float:right;
-}
 
 /* ----------------------------------------------*/
 /* 04.2 Menu Icon					 			 */
@@ -680,72 +785,13 @@ img.with-border{
 
 /* 04.2.1 Standard Menu Icon */
 /* ----------------------------------------------*/
-#menu-icon{
-	margin-top:50px; 
-	display:block;
-}
 
 /*#menu-icon a{
 }*/
 
-#menu-icon a i{
-	color:#666; 
-	font-size:24px;
-}
-
-#menu-icon a:hover i{
-	color:#4f73b1
-}
-
-#menu-icon.white a i{
-	color:#FFF; 
-	font-size:24px;
-}
-
-#menu-icon.white a:hover i{
-	color:#4f73b1
-}
-
 
 /* 04.2.2 Sticky Menu Icon */
 /* ----------------------------------------------*/
-#sticky-menuicon{
-	display:none;
-	position:fixed; 	
-	z-index:1000;
-	top:30px;
-	-webkit-transform: translateZ(0);
-}
-
-
-#sticky-menuicon a{
-	margin-top:12px; 
-	display:block;
-	background-color:#FFF;
-	padding:5px;
-}
-
-#sticky-menuicon a i{
-	color:#666;
-	font-size:24px;
-}
-
-#sticky-menuicon a:hover{
-	background-color:#4f73b1;
-}
-
-#sticky-menuicon a:hover i{
-	color:#FFF;
-}
-
-
-#menuicon-bar.menuicon-right #sticky-menuicon{
-	right:50px; 
-}
-
-#menuicon-bar.menuicon-left #sticky-menuicon{
-	left:50px; 
-}
 
 /* ----------------------------------------------*/
 /* 04.3 Sidebar Menu				 			 */
@@ -753,127 +799,22 @@ img.with-border{
 
 /* 04.3.1 Sidebar */
 /* ----------------------------------------------*/
-.sb-slidebar{
-	background-color:#FFF; 
-	width:320px;
-	border-left:1px solid #f4f2f2;
-	border-right:1px solid #f4f2f2;
-	z-index:2000;
-}
 
 /* 04.3.2 Sidebar Header */
 /* ----------------------------------------------*/
-#side-navbar-header{
-	position:relative;
-	width:100%; 
-	height:140px; 
-	display:block;	
-}
-
-#close-inner-wrapper{
-	position:absolute; 
-	bottom:30px; 
-	right:35px; 
-}
-
-#logo-inner-wrapper{
-	position:absolute; 
-	bottom:20px; 
-	left:35px; 
-}
-
-#close-button i{
-	color:#666;
-	font-size:24px;
-}
-
-#close-button:hover i{
-	color:#4f73b1;
-}
 
 /* 04.3.3 Parent Menu */
 /* ----------------------------------------------*/
-#side-nav-menu{
-	position:relative;
-	list-style-type:none; 
-	margin:35px;
-	margin-bottom:100px;
-	padding:0;
-	font-family: 'Oswald', sans-serif;
-	font-size:14px;
-	z-index:1000;
-}
-
-#side-nav-menu > li > a:before{
-  	font-family: "Ionicons";
-  	font-style: normal;
-  	font-weight: normal;
-  	font-size:10px;
-	content: '\f141';
-	color:#4f73b1;
-	text-align:center;
-	vertical-align:middle;
-	padding-right:10px;
-}
-
-#side-nav-menu > li a{
-	display:block;
-	padding:14px 8px;
-	color:#666;
-	text-decoration:none;
-		border-bottom:solid thin #f4f2f2;
-}
-
-#side-nav-menu > li a:hover{
-	color:#4f73b1;
-}
 
 /* 04.3.4 Child Menu */
 /* ----------------------------------------------*/
-#side-nav-menu ul{
-	display:none;
-	position:relative;
-	left:0;
-	list-style-type:none;
-	padding:0;
-	text-align:left;
-}
-
-#side-nav-menu ul.expand{
-	display:block
-}
-
-#side-nav-menu ul > li a{
-	padding-left:28px;
-}
 
 
 /* 04.3.5 Child-Parent Arrow Icon				 */
 /* ----------------------------------------------*/
-#side-nav-menu li a:after { 
-	content: '>'; 
-	position:absolute;
-	right:15px;
-} 
-
-#side-nav-menu li a:only-child:after { 
-	content: ''; 
-}
 
 /* 04.3.6 More Child Menu */
 /* ----------------------------------------------*/
-#side-nav-menu ul ul{
-	display:none;
-	position:relative;
-	left:0;
-	list-style-type:none;
-	padding:0;
-	text-align:left;
-}
-
-#side-nav-menu ul ul > li a{
-	border-bottom:none;
-}
 
 
 /*===============================================*/
@@ -909,9 +850,6 @@ img.with-border{
 /* ----------------------------------------------*/
 /* 05.2	IMG Logo								 */
 /* ----------------------------------------------*/
-.img-logo, .img-logo img{
-	width:100%;
-}
 
 
 
@@ -930,11 +868,6 @@ img.with-border{
 /* ----------------------------------------------*/
 /* #main-slider.fullscreen - script.js			 */
 
-#main-slider.fixed-height{
-	position:relative;
-	height:625px;
-}
-
 /* ----------------------------------------------*/
 /* 06.2 Main Slider Flexslider			  		 */
 /* ----------------------------------------------*/
@@ -950,31 +883,8 @@ img.with-border{
 	overflow:hidden;
 }
 
-#main-slider.flexslider .flex-viewport{
-	position:relative;
-	height:inherit;
-}
-
 /* 06.2.1 Main Slider Flexslider Control Nav & Paging */
 /* ----------------------------------------------*/
-#main-slider .flex-control-nav, .flex-control-paging{
-	 background-color:transparent !important;
-	 margin:0; padding:0;
-	 position:absolute;
-	 bottom:0;
-	 z-index:4;
-}
-
-#main-slider.flexslider .flex-direction-nav .flex-prev { left: 0px; }
-#main-slider.flexslider .flex-direction-nav .flex-next { right: 0px; text-align: right; }
-#main-slider.flexslider:hover .flex-prev { opacity: 0.7; left: 100px; }
-#main-slider.flexslider:hover .flex-next { opacity: 0.7; right: 100px; }
-
-
-#main-slider .flex-direction-nav a {
-	z-index:4;
-	line-height: 40px;
-}
 
 /* ----------------------------------------------*/
 /* 06.3 Main Slider Slide-Image		  		 	 */
@@ -995,11 +905,6 @@ img.with-border{
 /* ----------------------------------------------*/
 /* 06.4 Main Slider Slide-Video			  		 */
 /* ----------------------------------------------*/
-#main-slider .slide-video{
-	height: inherit; 
-	width:100%;
-	position:relative;	
-}
 
 /*#main-slider .slide-video-control{
 	height: 50px;
@@ -1043,8 +948,7 @@ img.with-border{
     color:#FFF;
 }
 
-.slide-title h1, .slide-title h2, .slide-title h3,
-.slide-title h4, .slide-title h5, .slide-title h6{
+.slide-title h1{
 	color:#FFF;
 }
 
@@ -1054,84 +958,21 @@ img.with-border{
 .slide-title.align-middle{
 	vertical-align: middle;
 }
-.slide-title.align-top{
-	vertical-align: top;
-	/*padding-top:100px;*/
-}
-.slide-title.align-bottom{
-	vertical-align: bottom;
-	/*padding-bottom:0px;*/
-}
 
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
-#save-the-date{
-	font-family: 'Dancing Script', cursive; 
-	-ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
-	padding-top:100px;
-	padding-right:50px;
-	margin-bottom:20px;
-}
-
-#save{
-	font-size:75px; 
-	line-height:50px
-}
-
-#the-date{
-	font-size:62px;
-}
-
-#date{
-	font-size:47px; 
-	line-height:40px;
-}
-
-.pink-dot{
-	color: #4f73b1; 
-}
 
 /* ----------------------------------------------*/
 /* 06.6 Each Slide Overlay					     */
 /* ----------------------------------------------*/
 
-.slide-overlay{
-	position:absolute;
-	top:0;
-	display:block; 
-	width:inherit; 
-	height:inherit; 
-	background-color:#000; 
-	opacity:0.3;
-	-webkit-transform: translateZ(0);
-}
-
 /* ----------------------------------------------*/
 /* 06.7 Each Slide Caption					     */
 /* ----------------------------------------------*/
-.slide-caption{
-	position:absolute;
-	top:0;
-	display:block;
-	width:inherit; 
-	height:inherit; 
-	color:#fff;	
-}
-
-.use-animation{
-	visibility:hidden
-}
 
 /* ----------------------------------------------*/
 /* 06.8 Hack Flexslider Fade for Firefox & IE11	 */
 /* ----------------------------------------------*/
-.flexslider .slides.css-fade > li { 
-  	-webkit-transition: opacity 1s ease; 
-	-moz-transition: opacity 1s ease;
- 	transition: opacity 1s ease; 
-}
 
 /* ----------------------------------------------*/
 /* 06.9 Loop Animation						     */
@@ -1139,76 +980,13 @@ img.with-border{
 
 /* 06.9.1 Zoom									 */
 /* ----------------------------------------------*/
-@-webkit-keyframes zoom-in-out {
-   0% {-webkit-transform: scale(1); /* Chrome, Safari, Opera */
-    transform: scale(1);}
-	50% {-webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
-    transform: scale(1.1);}
-	100%	{-webkit-transform: scale(1); /* Chrome, Safari, Opera */
-    transform: scale(1);}
-}
-
-@keyframes zoom-in-out {
-    0% {-webkit-transform: scale(1); /* Chrome, Safari, Opera */
-    transform: scale(1);}
-	50% {-webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
-    transform: scale(1.1);}
-	100%	{-webkit-transform: scale(1); /* Chrome, Safari, Opera */
-    transform: scale(1);}
-}
-
-.zoom.animate{
-	-webkit-transform: scale(1); /* Chrome, Safari, Opera */
-    transform: scale(1);
-	-webkit-animation: zoom-in-out 30s; /* Chrome, Safari, Opera */
-    animation: zoom-in-out 30s;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-}
 
 
 /* 06.9.2 Left-Right							 */
 /* ----------------------------------------------*/
-@-webkit-keyframes move-left-right {
-   0% { background-position: 50% 50%; }
-    25% { background-position: 100% 50%; }
-	50% { background-position: 50% 50%; }
-	75%	{ background-position: 0% 50%; }
-	100%	{ background-position: 50% 50%; }
-}
-
-@keyframes move-left-right {
-    0% { background-position: 50% 50%; }
-    25% { background-position: 100% 50%; }
-	50% { background-position: 50% 50%; }
-	75%	{ background-position: 0% 50%; }
-	100%	{ background-position: 50% 50%; }
-}
-
-.left-right.animate{
-	background-position:50% 50%;
-	-webkit-animation: move-left-right 240s; /* Chrome, Safari, Opera */
-    animation: move-left-right 240s;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-}
 
 /* 06.10 Video Audio Control					 */
 /* ----------------------------------------------*/
-#main-slider .video-audio-control{
-	height: 50px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	z-index: 4;
-	padding-right:10px;
-	text-align:right;
-	color:#FFF;
-}
-
-#main-slider .video-audio-control.mobile{
-	display:none;
-}
 
 /*===============================================*/
 /* 07. PAGE										 */
@@ -1224,27 +1002,15 @@ img.with-border{
 
 /* 07.1.1 Page Without Slider					 */
 /* ----------------------------------------------*/
-.no-slider-page #content{
-	padding:220px 0 120px 0;
-}
 
 /* 07.1.2 Page With Slider						 */
 /* ----------------------------------------------*/
-.slider-title-page #content{
-	padding:120px 0;
-}
 
 /* 07.1.3 Page With Banner						 */
 /* ----------------------------------------------*/
-.slider-banner-page #content{
-	padding:60px 0 120px 0;
-}
 
 /* 07.1.4 Page With Full Gallery				 */
 /* ----------------------------------------------*/
-.full-gallery-page #content{
-	padding:145px 0 120px 0;
-}
 
 /* 07.1.5 Page With Outside Bottom Bar 			 */
 /* ----------------------------------------------*/
@@ -1254,35 +1020,6 @@ img.with-border{
 
 /* 07.1.6 Page Sidebar				 			 */
 /* ----------------------------------------------*/
-.sidebar-wrapper{
-	width:100%; 
-	background-color:#FFF; 
-	padding:20px 30px
-}
-
-.sidebar-menu{
-	list-style-type:none;
-	padding:10px 0 0 0;	
-}
-
-.sidebar-menu li{
-	color:#6a6a6a;
-	display:block;
-	padding:10px 0;
-	border-bottom:1px solid #CCC;
-}
-
-.sidebar-menu li a{
-	color:#6a6a6a;
-}
-
-.sidebar-menu li a:hover{
-	color:#4f73b1;
-}
-
-.side-tab{
-	margin-bottom:60px;
-}
 
 
 /* ----------------------------------------------*/
@@ -1291,9 +1028,6 @@ img.with-border{
 
 /* 07.2.1 Page Title Wrapper					 */
 /* ----------------------------------------------*/
-.page-title{
-	padding-bottom:50px;
-}
 
 /* 07.2.2 Section Title Wrapper					 */
 /* ----------------------------------------------*/
@@ -1309,37 +1043,12 @@ img.with-border{
 
 /* 07.2.3 Icon Title Wrapper					 */
 /* ----------------------------------------------*/
-.icon-title {
-	position:absolute; 
-	margin: auto; 
-	left:0; 
-	right:0;
-	top:-50px;
-}
 
 /* 07.2.4 Title-Excerpt White Box				 */
 /* ----------------------------------------------*/
-.title-excerpt{
-	position:relative;
-	background-color:#FFF; 
-	padding:25px;
-}
-
-.title-excerpt .custom-heart-icon{
-	position:absolute;
-	margin: auto; 
-	left:0; 
-	right:0; 
-	top:-12px;
-	color:#4f73b1 !important; 
-	background-color:#e1dddd !important;
-}
 
 /* 07.2.5 Blurb Wrapper							 */
 /* ----------------------------------------------*/
-.blurb{
-	margin-top:20px;
-}
 
 /* 07.2.6  Align Middle Wrapper					 */
 /* ----------------------------------------------*/
@@ -1359,21 +1068,8 @@ img.with-border{
 	text-align:center;
 }
 
-.center-top{
-	vertical-align:top;
-	text-align:center;
-}
-
-.center-bottom{
-	vertical-align:bottom;
-	text-align:center;
-}
-
 /* 07.2.7 IMAGE & VIDEO DIVIDER					 */
 /* ----------------------------------------------*/
-.divider-wrapper{
-	padding:130px 0;
-}
 
 .image-divider {
 	position:relative;
@@ -1385,28 +1081,12 @@ img.with-border{
 	color:#FFF;
 }
 
-.image-divider.mobile{
-	background-attachment:scroll;
-}
-
-.video-divider {
-	position:relative;
-	color:#FFF;
-	z-index:3;
-}
-
-.image-divider h1, .image-divider h2,
-.image-divider h3, .image-divider h4,
-.image-divider h5, .image-divider h6,
-.video-divider h1, .video-divider h2,
-.video-divider h3, .video-divider h4,
-.video-divider h5, .video-divider h6 {
+.image-divider h2 {
 	color:#FFF;
 }
 
 
-.image-divider .divider-overlay,
-.video-divider .divider-overlay{
+.image-divider .divider-overlay{
 	position:absolute; 
 	top:0; 
 	display:block; 
@@ -1416,15 +1096,13 @@ img.with-border{
 	opacity:0.3
 }
 
-.image-divider.auto-height,
-.video-divider.auto-height {
+.image-divider.auto-height {
 	height:100%;
 	width:100%;
 	padding:150px 0;
 }
 
-.image-divider.fixed-height,
-.video-divider.fixed-height {
+.image-divider.fixed-height {
 	height:700px;
 	width:100%;
 	padding:0;
@@ -1432,19 +1110,6 @@ img.with-border{
 
 /* 07.2.8 SPACE AND LINE DIVIDER 				 */
 /* ----------------------------------------------*/
-.space-divider{
-	display:block;
-	height:150px
-}
-
-
-hr.line-divider{
-	height:2px;
-	border:none;
-	color:#e1dddd;
-	background-color:#e1dddd; 
-	margin:50px 0
-}
 
 /* 07.2.9 HEART DIVIDER							 */
 /* ----------------------------------------------*/
@@ -1463,13 +1128,6 @@ hr.line-divider{
 	height:8px;
 	display:inline-block;
 	border-top:solid 1px #FFF;
-}
-
-.grey-line{
-	width:30px; 
-	height:8px;
-	display:inline-block;
-	border-top:solid 2px #e1dddd;
 }
 
 /*.left-line{
@@ -1505,18 +1163,10 @@ hr.line-divider{
 	z-index:2
 }
 
-.grey-heart{
-	color: #e1dddd;
-	font-size:18px; 
-	margin-left:-15px; 
-	position:relative;
-	z-index:2
-}
-
 
 /* 07.2.10 BUTTON					 			 */
 /* ----------------------------------------------*/
-a.de-button, span.de-button, input[type=submit]{
+a.de-button, input[type=submit]{
 	display:inline-block; 	
 	margin:0 auto; 
 	margin-top:20px; 
@@ -1525,31 +1175,21 @@ a.de-button, span.de-button, input[type=submit]{
 	border:solid 1px #6a6a6a
 }
 
-a.de-button.outline, span.de-button.outline, input[type=submit].outline{
+a.de-button.outline{
 	background-color:transparent; 
 	border:solid 1px #FFF;
 	color:#FFF;
 }
 
-a.de-button.reverse, span.de-button.reverse, input[type=submit].reverse{
+input[type=submit].reverse{
 	background-color:#4f73b1; 
 	border:solid 1px #4f73b1;
 	color:#FFF;
 }
 
-a.de-button.small, span.de-button.small, input[type=submit].small{
-	padding:8px 26px; 
-	font-size:14px; 
-}
-
-a.de-button.medium, span.de-button.medium, input[type=submit].medium{
+a.de-button.medium, input[type=submit].medium{
 	padding:10px 50px; 
 	font-size:16px; 
-}
-
-a.de-button.large, span.de-button.large, input[type=submit].large{
-	padding:14px 70px; 
-	font-size:20px; 
 }
 
 a.de-button:hover, input[type=submit]:hover{
@@ -1559,7 +1199,7 @@ a.de-button:hover, input[type=submit]:hover{
 	text-decoration:none;
 }
 
-a.de-button.reverse:hover, input[type=submit].reverse:hover{
+input[type=submit].reverse:hover{
 	background-color:#FFF;
 	border-color:#FFF;
 	color:#6a6a6a;
@@ -1582,10 +1222,6 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	margin-top:30px;
 	margin-bottom:30px; 	
 	text-align:center
-}
-
-.banner-text.small{
-	padding:2px 30px;  
 }
 
 .banner-text.medium{
@@ -1643,10 +1279,6 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	margin-left:19px;
 }
 
-.banner-text.withlove.dark:before{
-	color:#e1dddd;
-}
-
 .banner-text.withlove:after{
 	display:block;
 	font-family: "Ionicons";
@@ -1663,61 +1295,14 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 /* 07.2.12 White Box Content Wrapper 			 */
 /* ----------------------------------------------*/
-.white-box-content-wrapper{
-	background-color:#FFF; 
-	padding:40px 40px;
-	margin-bottom:30px;
-}
 
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-#popup-template{
-	width:900px;
-	margin:30px auto; 
-	background-color:#FFF;
-}
-
-#popup-template #main-image{
-	height:485px;
-	width:100%;
-	position:relative;
-}
-
-#popup-template-title-wrapper{
-	position:absolute; 
-	bottom:0; 
-	color:#FFF; 
-	text-align:center; 
-	padding:0 50px;
-	margin:0 auto;
-	width:100%;
-}
-
-#popup-template #the-content{
-	padding:35px 75px;
-}
-
-#popup-template #the-content #socialnetwork-icon{
-	text-align:center; 
-	margin-bottom:20px;
-}
-
-#popup-template #the-content img{
-	width:100%;
-	margin:10px 0
-}
 
 /*-----------------------------------------------*/
 /* 07.2.14 Autocrop Image						 */
 /*-----------------------------------------------*/
-.autocrop-image{
- 	display:block;
-	background-position:center center;
-	background-size:cover;
-	background-repeat:no-repeat;
-	overflow:hidden;
-}
 
 /*===============================================*/
 /* 08. ICON										 */
@@ -1745,19 +1330,10 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
     border:1px solid #4f73b1;
 }
 
-.de-icon.aligncenter{
-	margin:0 auto;
-}
-
 .de-icon.inline{
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:8px;
-}
-
-.de-icon.float{
-	float:left; 
-	margin-right:15px
 }
 
 .de-icon i{
@@ -1772,19 +1348,6 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /*------------------------------------------------*/
 /* 08.1	 Size 							   	  	  */
 /*------------------------------------------------*/
-.de-icon.large-size{
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	font-size:40px;	
-}
-
-.de-icon.medium-size{
-	width: 54px;
-	height: 54px;
-	line-height: 54px;
-	font-size:21px;	
-}
 
 .de-icon.small-size{
 	width: 40px;
@@ -1793,42 +1356,12 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	font-size:18px;	
 }
 
-.de-icon.very-small-size{
-	width: 25px;
-	height: 25px;
-	line-height: 25px;
-	font-size:11px;	
-}
-
 /*------------------------------------------------*/
 /* 08.2 Shape									  */
 /*------------------------------------------------*/
 
 /* 08.2.1 Default								  */
 /*------------------------------------------------*/
-.de-icon.default{
-	color:#6a6a6a;
-}
-
-.de-icon.default.light{
-	color:#FFF;
-}
-
-.de-icon.default.reverse{
-	color:#4f73b1;
-}
-
-a:hover .de-icon.default, a:hover .de-icon.default.light{
-	color:#4f73b1;
-}
-
-a:hover .de-icon.default.reverse{
-	color:#6a6a6a;
-}
-
-a:hover .de-icon.default.light.reverse{
-	color:#FFF;
-}
 
 /* 08.2.2 Circle, Rounded, Square				  */
 /*------------------------------------------------*/
@@ -1836,473 +1369,100 @@ a:hover .de-icon.default.light.reverse{
 	border-radius: 50%;
 }
 
-.de-icon.rounded{
-	border-radius: 20%;
-}
-
-.de-icon.square, .de-icon.circle, .de-icon.rounded{
+.de-icon.circle{
 	background-color:#6a6a6a;
 	color:#FFF;
-}
-
-.de-icon.square.reverse, .de-icon.circle.reverse, .de-icon.rounded.reverse{
-	background-color:#4f73b1;
-	color:#FFF;
-}
-
-.de-icon.square.light, .de-icon.circle.light, .de-icon.rounded.light{
-	background-color:#FFF;
-	color:#6a6a6a;
-}
-
-.de-icon.square.light.reverse, .de-icon.circle.light.reverse, .de-icon.rounded.light.reverse{
-	background-color:#FFF;
-	color:#4f73b1;
-}
-
-
-.de-icon.outline{
-	background-color:transparent;
-	color:#6a6a6a;
-	border:1px solid #6a6a6a;
-}
-
-.de-icon.outline.reverse{
-	background-color:transparent;
-	color:#4f73b1;
-	border:1px solid #4f73b1;
-}
-
-.de-icon.outline.light, .de-icon.outline.light.reverse{
-	background-color:transparent;
-	color:#FFF;
-	border:1px solid #FFF;
-}
-
-a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
-	background-color:#4f73b1;
-	color:#FFF;
-	border:none;
-}
-
-a:hover .de-icon.circle.reverse, a:hover .de-icon.rounded.reverse, a:hover .de-icon.square.reverse{
-	background-color:#6a6a6a;
-	color:#FFF;
-	border:none;
 }
 
 
 /*------------------------------------------------*/
 /* 08.3 Effect Zoom 						 	  */
 /*------------------------------------------------*/
-.de-icon.effect1{
-	-webkit-transform: scale(1);
-	   -moz-transform: scale(1);
-	     -o-transform: scale(1);
-	    -ms-transform: scale(1);
-	        transform: scale(1);	
-}
-
-a:hover .de-icon.effect1{
-	-webkit-transform: scale(1.2);
-	   -moz-transform: scale(1.2);
-	     -o-transform: scale(1.2);
-	    -ms-transform: scale(1.2);
-	        transform: scale(1.2);	
-}
 
 /*------------------------------------------------*/
 /* 08.4 Effect Rotate						  	  */
 /*------------------------------------------------*/
-.de-icon.effect2 i{
-	-webkit-transform: rotate(0deg);
-	   -moz-transform: rotate(0deg);
-	     -o-transform: rotate(0deg);
-	    -ms-transform: rotate(0deg);
-	        transform: rotate(0deg);	
-}
-
-a:hover .de-icon.effect2 i{
-	-webkit-transform: rotate(360deg);
-	   -moz-transform: rotate(360deg);
-	     -o-transform: rotate(360deg);
-	    -ms-transform: rotate(360deg);
-	        transform: rotate(360deg);	
-}
 
 /*------------------------------------------------*/
 /* 08.5 Effect Square/Rounded To Circle 	  	  */
 /*------------------------------------------------*/
-a:hover .de-icon.effect3{
-	background-color:#4f73b1;
-	color:#fff;
-	border-radius: 50%;
-}
 
 
 /*===============================================*/
 /* 09. PHOTO ITEM								 */
 /*===============================================*/
-.photo-item {
-	position:relative;
-	overflow:hidden;
-}
-
-.photo-item.frame-border {
-	background-color:#FFF; 
-	border:18px solid #FFF;
-}
 
 /* ----------------------------------------------*/
 /* 09.1 Image 									 */
 /* ----------------------------------------------*/
-.photo-item img {
-	width:100%;
-}
 
 /* ----------------------------------------------*/
 /* 09.2 Layer 								 	 */
 /* ----------------------------------------------*/
-.photo-item .layer {
-	position: absolute; 
-	margin: auto;
-	top: 0; 
-	right: 0; 
-	bottom: 0;
-	left: 0;
-	width:100%;
-	height:100%;
-}
-
-.photo-item .layer.wh100{
-	width:100%;
-	height:100%; 
-}
-
-.photo-item .layer.wh95{
-	width:95%;
-	height:95%; 
-}
 
 
 /* 09.2.1 Layer : Second Image   				 */
 /* ----------------------------------------------*/
-.photo-item .layer.second-image{
-	opacity: 0; 
-}
 
 
 /* 09.2.2 Layer : Black Overlay  				 */
 /* ----------------------------------------------*/
-.photo-item .layer.opacity-black-overlay{
-	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0.3; 
-}
-
-.photo-item .layer.hidden-black-overlay{
-	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0; 
-}
 
 /* 09.2.3 Layer : Photo Caption  				 */
 /* ----------------------------------------------*/
-.photo-item .layer.photo-caption{
-	opacity: 1; 
-}
-
-.photo-item .layer.hidden-photo-caption{
-	opacity: 0; 
-}
-
-.photo-item .layer.border-photo-caption{
-	opacity: 1;
-	border:1px solid #FFF; 
-}
-
-.photo-item .layer.hidden-border-photo-caption{
-	opacity: 0;
-	border:1px solid #FFF; 
-}
 
 /* 09.2.4 Layer : Icon / Button Link		 	 */
 /* ----------------------------------------------*/
-.photo-item .layer.link{
-	opacity: 1;
-}
-
-.photo-item .layer.hidden-link{
-	opacity: 0;
-}
-
-.photo-item:hover .layer.hover-animation.fade-in{
-	opacity: 1; 
-}
-
-.photo-item:hover .layer.hover-animation.half-fade-in{
-	opacity: 0.3; 
-}
-
-.photo-item:hover .layer.hover-animation.fade-out{
-	opacity: 0; 
-}
 
 /* ----------------------------------------------*/
 /* 09.3 on Hover Animation					 	*/
 /* ----------------------------------------------*/
-.photo-item img.hover-animation, .photo-item:hover img.hover-animation{
-	-webkit-transition: all 0.5s; 
-		-ms-transition: all 0.5s;
-		 -o-transition: all 0.5s;
-			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/		
-}
-
-.photo-item .layer.hover-animation, .photo-item:hover .layer.hover-animation {
-	-webkit-transition: all 0.5s; 
-		-ms-transition: all 0.5s;
-		 -o-transition: all 0.5s;
-			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/	
-}
 
 /* 09.3.1 on Hover Animation Duration		 	 */
 /* ----------------------------------------------*/
-.photo-item:hover .layer.hover-animation.duration1,
-.photo-item:hover img.hover-animation.duration1{
-	transition-duration:0.5s;
-}
-
-.photo-item:hover .layer.hover-animation.duration2,
-.photo-item:hover img.hover-animation.duration12{
-	transition-duration:1s;
-}
-
-.photo-item:hover .layer.hover-animation.duration3,
-.photo-item:hover img.hover-animation.duration3{
-	transition-duration:1.5s;
-}
-
-.photo-item:hover .layer.hover-animation.duration4,
-.photo-item:hover img.hover-animation.duration4{
-	transition-duration:2s;
-}
-
-.photo-item:hover .layer.hover-animation.duration5,
-.photo-item:hover img.hover-animation.duration5{
-	transition-duration:2.5s;
-}
 
 /* 09.3.2 on Hover Animation Delay		 	 	 */
 /* ----------------------------------------------*/
-.photo-item:hover .layer.hover-animation.delay1,
-.photo-item:hover img.hover-animation.delay1{
-	transition-delay:0.5s;
-}
-
-.photo-item:hover .layer.hover-animation.delay2,
-.photo-item:hover img.hover-animation.delay2{
-	transition-delay:1s;
-}
-
-.photo-item:hover .layer.hover-animation.delay3,
-.photo-item:hover img.hover-animation.delay3{
-	transition-delay:1.5s;
-}
-
-.photo-item:hover .layer.hover-animation.delay4,
-.photo-item:hover img.hover-animation.delay4{
-	transition-delay:2s;
-}
-
-.photo-item:hover .layer.hover-animation.delay5,
-.photo-item:hover img.hover-animation.delay5{
-	transition-delay:2.5s;
-}
 
 
 /* 09.3.3 on Hover Zoom In					 	 */
 /* ----------------------------------------------*/
-.photo-item:hover img.hover-animation.image-zoom-in {
-	-webkit-transform: scale(1.1); 
-		-ms-transform: scale(1.1);
-		 -o-transform: scale(1.1);  
-			transform: scale(1.1);		
-}
 
 /* 09.3.4 on Hover Zoom In and Rotate	 	 	*/
 /* ----------------------------------------------*/
-.photo-item:hover img.hover-animation.image-zoom-rotate {
-	-webkit-transform: rotate(7deg) scale(1.1);
-		-ms-transform: rotate(7deg) scale(1.1);
-		 -o-transform: rotate(7deg) scale(1.1);  
-			transform: rotate(7deg) scale(1.1);			
-}
 
 /* 09.3.5 on Hover Fade Out				 		 */
 /* ----------------------------------------------*/
-.photo-item:hover img.hover-animation.image-fade-out {
-	opacity:0;
-}
 
 
 /*===============================================*/
 /* 10. MASONRY GALLERY							 */
 /*===============================================*/
-.masonry-col.w100{
-	width:100%;
-}
 
 /* ----------------------------------------------*/
 /* 10.1 Three Column No Gutter		 			 */
 /* ----------------------------------------------*/
-.three-col .grid-sizer{
-	width:33.33%;
-}
-
-.three-col .gutter-sizer{
-	width:0;
-}
-
-.three-col .masonry-col.w33{
-	width:33.33%;
-}
-
-.three-col .masonry-col.w66{
-	width:66.67%;
-}
 
 
 /* ----------------------------------------------*/
 /* 10.2 Three Column With Gutter	 			 */
 /* ----------------------------------------------*/
-.three-col.with-gutter .grid-sizer{
-	width:31%;
-}
-
-.three-col.with-gutter .gutter-sizer{
-	width:3.5%;
-}
-
-.three-col.with-gutter .masonry-col{
-	margin-bottom:30px;
-}
-
-
-.three-col.with-gutter .masonry-col.w33{
-	width:31%;
-}
-
-.three-col.with-gutter .masonry-col.w66{
-	width:62%;
-}
 
 /* ----------------------------------------------*/
 /* 10.3 Four Column No Gutter		 			 */
 /* ----------------------------------------------*/
-.four-col .grid-sizer{
-	width:25%;
-}
-
-.four-col .gutter-sizer{
-	width:0;
-}
-
-.four-col .masonry-col.w25{
-	width:25%;
-}
-
-.four-col .masonry-col.w50{
-	width:50%;
-}
-
-.four-col .masonry-col.w75{
-	width:75%;
-}
 
 /* ----------------------------------------------*/
 /* 10.4 Four Column With Gutter		 			 */
 /* ----------------------------------------------*/
-.four-col.with-gutter .grid-sizer{
-	width:23%;
-}
-
-.four-col.with-gutter .gutter-sizer{
-	width:2.666%;
-}
-
-.four-col.with-gutter .masonry-col{
-	margin-bottom:25px;
-}
-
-.four-col.with-gutter .masonry-col.w25{
-	width:23%;
-}
-
-.four-col.with-gutter .masonry-col.w50{
-	width:46%;
-}
-
-.four-col.with-gutter .masonry-col.w75{
-	width:69%;
-}
 
 /* ----------------------------------------------*/
 /* 10.5 Five Column No Gutter		 			 */
 /* ----------------------------------------------*/
-.five-col .grid-sizer{
-	width:20%;
-}
-
-.five-col .gutter-sizer{
-	width:0;
-}
-
-.five-col .masonry-col.w20{
-	width:20%;
-}
-
-.five-col .masonry-col.w40{
-	width:40%;
-}
-
-.five-col .masonry-col.w60{
-	width:60%;
-}
-
-.five-col .masonry-col.w80{
-	width:80%;
-}
 
 /* ----------------------------------------------*/
 /* 10.6 Five Column With Gutter		 			 */
 /* ----------------------------------------------*/
-.five-col.with-gutter .grid-sizer{
-	width:18%;
-}
-
-.five-col.with-gutter .gutter-sizer{
-	width:2.5%;
-}
-
-.five-col.with-gutter .masonry-col{
-	margin-bottom:25px;
-}
-
-.five-col.with-gutter .masonry-col.w20{
-	width:18%;
-}
-
-.five-col.with-gutter .masonry-col.w40{
-	width:36%;
-}
-
-.five-col.with-gutter .masonry-col.w60{
-	width:54%;
-}
-
-.five-col.with-gutter .masonry-col.w80{
-	width:72%;
-}
 
 
 /*===============================================*/
@@ -2314,10 +1474,6 @@ a:hover .de-icon.effect3{
 /*-----------------------------------------------*/
 .form-group{
 	margin-bottom: 30px;
-}
-
-.form-group.submit-wrapper{
-	margin-top:30px;
 }
 
 /*-----------------------------------------------*/
@@ -2338,9 +1494,6 @@ a:hover .de-icon.effect3{
 /*-----------------------------------------------*/
 /* 11.3 Input Group								 */
 /*-----------------------------------------------*/
-.input-group-addon {
-	border-radius:0;
-}
 
 /*-----------------------------------------------*/
 /* 11.4 Label									 */
@@ -2351,80 +1504,13 @@ form label{
 	font-weight:normal;
 }
 
-.option-label{
-	font-family: 'Arvo', serif;	
-	color:#6a6a6a;
-	font-size:13px;
-}
-
 /*-----------------------------------------------*/
 /* 11.5 Button									 */
 /*-----------------------------------------------*/
-form .btn-primary 
-{
-    padding: 12px 18px;
-    margin: 0 15px 5px 15px; 
-    border-radius: 0;
-	font-family: 'Arvo', serif;	
-	color:#6a6a6a;
-	font-size:13px;
-  	background-color: #FFF;
-  	border-color: #cccccc;
-}
-
-form .btn-primary:hover,
-form .btn-primary:focus,
-form .btn-primary.focus,
-form .btn-primary:active,
-form .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-	background-color:#4f73b1; 
-	border-color:#4f73b1;
-	color:#FFF;
- 	border-color: #cccccc;
-}
 
 /*-----------------------------------------------*/
 /* 11.6 Checkbox and Radio (Custom)				 */
 /*-----------------------------------------------*/
-.ajax-checkbox .btn input[type=checkbox],
-.ajax-radio .btn input[type=radio]{
-	display:none;	
-}
-
-.ajax-checkbox .btn.custom-option-icon, .ajax-checkbox .btn.no-icon,
-.ajax-radio .btn.custom-option-icon, .ajax-radio .btn.no-icon{
-	margin-left:0;
-	text-align:left;
-}
-
-.ajax-checkbox .btn.custom-option-icon:before{
-	font-family:"Ionicons";
-	content:"\ecd4";
-	margin-right:7px;
-}
-
-.ajax-checkbox .btn.active-icon.custom-option-icon:before{
-	font-family:"Ionicons";
-	content:"\ecd3";
-	margin-right:7px;
-}
-
-.ajax-radio .btn.custom-option-icon:before{
-	font-family:"Ionicons";
-	content:"\e914";
-	margin-right:7px;
-	font-size:16px;
-	font-weight:bold;
-}
-
-.ajax-radio .btn.active-icon.custom-option-icon:before{
-	font-family:"Ionicons";
-	content:"\e917";
-	margin-right:7px;
-	font-size:16px;
-	font-weight:bold;
-}
 
 /*-----------------------------------------------*/
 /* 11.7 Select Option							 */
@@ -2446,38 +1532,10 @@ option{
 	font-size:13px
 }
 
-.message .bg-danger, .message .bg-success{
-	padding:8px 14px;
-	color:#ffffff;
-}
-
-.message .bg-danger{
-	background-color:#4f73b1; 
-}
-
-.message .bg-success{
-	background-color:#6a6a6a;
-}
-
 
 /*-----------------------------------------------*/
 /* 11.9 Validation								 */
 /*-----------------------------------------------*/
-form .has-error .btn-primary{
-	border-color: #f397a1;
-}
-
-.has-error .form-control {
-  border-color: #f397a1;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-}
-
-.has-error .form-control:focus {
-  border-color: #f397a1;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #f397a1;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #f397a1;
-}
 
 
 /*===============================================*/
@@ -2488,99 +1546,18 @@ form .has-error .btn-primary{
 /* 12.1 Couple Section							 */
 /* ----------------------------------------------*/
 
-#couple{
-	padding:140px 0 100px 0;
-}
-
-.couple-name{
-	font-family: 'Dancing Script', cursive; 
-	font-size:41px; 
-	padding-top:100px;
-	color:#FFF; 
-	line-height:41px; 
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg)
-}
-
-.couple-excerpt{
-	margin-top:40px;
-	margin-bottom:40px;
-}
-
 /* ----------------------------------------------*/
 /* 12.2 Location & Countdown Section			 */
 /* ----------------------------------------------*/
-
-#counting-down{
-	text-align:center; 
-	color:#FFF; 
-	font-family: 'Dancing Script';
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg);
-	padding-right:30px;
-	margin-top:0px;
-	margin-bottom:25px;
-}
-
-#counting{
-	font-size:65px; 
-	line-height:50px
-}
-
-#down{
-	font-size:55px; 
-	line-height:65px;
-}
-
-.simple-countdown{
-	width:250px; 
-	margin:0 auto; 
-	margin-top:25px
-}
-
-.simple-countdown.is-countdown {
-	border: none;
-	background-color:transparent;
-	color:#FFF;
-	font-family: 'Oswald', sans-serif; 
-	font-size:13px;
-}
-
-.simple-countdown .countdown-amount {
-	display:inline-block;
-	font-size:18px;
-	letter-spacing:2px;
-}
-.simple-countdown .countdown-period {
-    display:inline-block;
-	font-size:18px;
-}
 
 
 /* ----------------------------------------------*/
 /* 12.3 The Wedding Section			 			 */
 /* ----------------------------------------------*/
-#the-wedding{
-	padding:140px 0 140px 0;
-}
-
-#the-wedding h4{
-	font-size:17px;
-}
-
-.wedding-item{
-	margin-bottom:40px;
-}
 
 /* ----------------------------------------------*/
 /* 12.4 RSVP Section				 			 */
 /* ----------------------------------------------*/
-#rsvp{
-	padding:85px 0;
-	background-color:#FFF
-}
 
 /* ----------------------------------------------*/
 /* 12.5 Footer Section				 			 */
@@ -2627,48 +1604,22 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 13.1 Location Page				 			 */
 /* ----------------------------------------------*/
-.interest-icon{
-	display:inline-block; 
-	width:20%; 
-	vertical-align:top; 
-	text-align:center
-}
-
-.interest-blurb{
-	display:inline-block; 
-	width:75%;
-	vertical-align:top;
-}
 
 /* ----------------------------------------------*/
 /* 13.2 RSVP-2 Page				 			 	 */
 /* ----------------------------------------------*/
-.rsvp-wrapper{
-	padding:35px 20px 20px 25px; 
-	border:1px solid #cccccc; 
-	border-radius:10px;
-}
 
 /* ----------------------------------------------*/
 /* 13.3 Bridesmaid Page				 			 */
 /* ----------------------------------------------*/
-.bridesmaid-wrapper{
-	margin-bottom:40px;
-}
 
 /* ----------------------------------------------*/
 /* 13.4 Groomsmen Page				 			 */
 /* ----------------------------------------------*/
-.groomsmen-wrapper{
-	margin-bottom:40px;
-}
 
 /* ----------------------------------------------*/
 /* 13.5 Blog Page				 			 	 */
 /* ----------------------------------------------*/
-.blog-wrapper{
-	margin-bottom:40px;
-}
 
 /*===============================================*/
 /* 14. ONEPAGE SECTION							 */
@@ -2699,124 +1650,10 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 14.2 Couple Section							 */
 /* ----------------------------------------------*/
-.his-her-name{
-	position:relative;
-}
-
-.his-her-name h2{
-	font-size:40px; 
-	margin-top:50px; 
-	margin-bottom:20px;
-}
-
-.his-her-name .last-name{
-	font-family: 'Dancing Script', cursive; 
-	font-size:24px; 
-	display:block; 
-	margin-top:0;
-}
-
-.his-her-name .heart-wrapper{
-	position:absolute; 
-	right:-50px; 
-	top:0;
-}
-
-.his-her-name .custom-heart{
-	background-color:#4f73b1; 
-	width:65px; 
-	height:65px; 
-	line-height:65px;	
-	font-size:26px;
-}
 
 /* ----------------------------------------------*/
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
-#our-story{
-	padding: 140px 0
-}
-
-.story-row.row {
-    display: table;
-	padding:50px 0;
-	position:relative;
-}
-
-.story-row.row [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.story-date-wrapper{
-	z-index:1;
-}
-
-.story-date{
-	float:left;
-	margin-left:16px;
-	height:85px; 
-	width:85px; 
-	background-color:#4f73b1; 
-	border-radius:50%;
-}
-
-.story-date .date-only{
-	font-family: 'Oswald', sans-serif; 
-	font-size:30px; 
-	color:#FFF; 
-	line-height:30px; 
-	margin-top:16px;
-}
-
-.story-date .month-year{
-	font-family: 'Oswald', sans-serif; 
-	font-size:16px; 
-	color:#FFF;
-}
-
-.arrow-right {
-	width: 0; 
-	height: 0; 
-	border-top: 13px solid transparent;
-	border-bottom: 13px solid transparent;
-	
-	border-left: 13px solid #e1dddd;
-	float:right;
-	margin-bottom:22px;
-	margin-left:10px;
-	margin-top:30px;
-}
-
-.arrow-left {
-	width: 0; 
-	height: 0; 
-	border-top: 13px solid transparent;
-	border-bottom: 13px solid transparent; 
-	
-	border-right:13px solid #e1dddd; 
-	float:left;
-	margin-bottom:22px;
-	margin-right:10px;
-	margin-top:30px;
-}
-
-.vertical-line{
-	position:absolute; 
-	height:100%; 
-	width:1px; 
-	margin:auto; 
-	top:0; 
-	bottom:0; 
-	left:0; 
-	right:0; 
-	border-left:1px solid #e1dddd;
-}
-
-#end-of-story{
-	margin-top:130px;
-}
 
 /* ----------------------------------------------*/
 /* 14.4 Where When Section						 */
@@ -2842,95 +1679,26 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 14.5 Gallery Section							 */
 /* ----------------------------------------------*/
-#gallery-section{
-	padding: 140px 0
-}
-
-#gallery-section .photo-item{
-	margin-bottom:30px;
-}
 
 /* ----------------------------------------------*/
 /* 14.6 Don't Miss It / Countdown Section		 */
 /* ----------------------------------------------*/
-h2#dont-miss-it-title{
-	font-size:42px; 
-	margin-bottom:30px; 
-	font-family: 'Dancing Script', cursive;
-}
-
-.circle-countdown{
-	width:100%; 
-	margin:0 auto; 
-	margin-top:25px
-}
-
-.circle-countdown.is-countdown {
-	background-color:transparent;
-	border:none;
-	font-family: 'Oswald', sans-serif; 
-}
-
-.circle-countdown .countdown-amount {
-	background-color:#4f73b1;
-	width:85px;
-	height:85px;
-	border-radius:50%;
-	display:block;
-	padding-top:22px;
-	font-size:30px;
-	margin:0 auto;
-}
-
-.circle-countdown .countdown-period {
-	padding:10px;
-	display:block;
-	text-align:center;
-	font-size:16px;
-	text-transform:uppercase;    
-}
 
 /* ----------------------------------------------*/
 /* 14.7 More Events Section						 */
 /* ----------------------------------------------*/
-#more-events{
-	padding: 140px 0
-}
-
-#events-carousel .item{
-	padding:20px;
-	margin-bottom:10px;
-}
 
 /* ----------------------------------------------*/
 /* 14.8 Groomsmen Section						 */
 /* ----------------------------------------------*/
-#groomsmen-section{
-	padding: 140px 0
-}
-
-.groomsmen-item{
-	margin-bottom:60px;
-}
 
 /* ----------------------------------------------*/
 /* 14.9 Bridesmaid Section						 */
 /* ----------------------------------------------*/
-#bridesmaid-section{
-	padding: 140px 0
-}
-
-.bridesmaid-item{
-	margin-bottom:60px;
-}
 
 /* ----------------------------------------------*/
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
-#gift-section{
-	padding: 140px 0; 
-	background-color:#FFF
-}
 
 /* ----------------------------------------------*/
 /* 14.11 RSVP Section							 */
@@ -2947,153 +1715,14 @@ h2#dont-miss-it-title{
 /* -------------------------------------------*/
 /* 15.1 Owl Carousel 						  */
 /* -------------------------------------------*/
-.owl-carousel .item{
-	padding:0 15px
-}
-
-.owl-theme .owl-controls .owl-page span{
-	display: block;
-	width: 8px;
-	height: 8px;
-	margin: 5px 7px;
-	opacity: 1;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background: #333333;
-}
-
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span{
-	background: #4f73b1;
-}
 
 /* -------------------------------------------*/
 /* 15.2 MAGNIFIC POPUP 						  */
 /* -------------------------------------------*/
-.mfp-bg{
-	z-index:2000;
-	-webkit-transform: translateZ(0);
-}
-
-.mfp-wrap {
-  	z-index: 2001;
-}
-
-.mfp-content {
-  	z-index: 2003;
-}
-  
-.mfp-preloader {
-  	z-index: 2002; 
-}
-
-button.mfp-close, button.mfp-arrow {
-  	z-index: 2003;
-}
 
 /*===============================================*/
 /* 99. OPTION SETTING							 */
-/*===============================================*/
-#options-setting{
-	position:fixed; 
-	width:300px;  
-	padding:25px; 
-	background-color:#FFF; 
-	top:170px; 
-	left:-302px; 
-	z-index:1000;
-	box-shadow: 2px 2px 5px #888888;
-	-webkit-transition: 0.3s all ease;
-	-moz-transition: 0.3s all ease;
-	-o-transition: 0.3s all ease;
-	-ms-transition: 0.3s all ease;
-	transition: 0.3s all ease;
-}
-
-#options-setting.move-right{
-	left:0px;
-	-webkit-transition: 0.3s all ease;
-	-moz-transition: 0.3s all ease;
-	-o-transition: 0.3s all ease;
-	-ms-transition: 0.3s all ease;
-	transition: 0.3s all ease;
-}
-
-#setting-button-wrapper{
-	position:absolute; 
-	left:300px; 
-	top:-8px
-}
-
-.swatches{
-	display:inline-block; 
-	height:25px; 
-	width:25px; 
-	margin-right:3px;
-}
-
-#coral span{
-	background-color:#FF7F50; 
-}
-
-#coral-red span{
-	background-color:#FF4040; 
-}
-
-#lapis span{
-	background-color:#69477A; 
-}
-
-#light-teal span{
-	background-color:#18A7B5; 
-}
-
-#tan span{
-	background-color:#D2B48C; 
-}
-
-#reset-color span{
-	position:absolute; 
-	top:0; 
-	right:10px; 
-	border:3px solid #CCC; 
-	padding:0px 10px;
-}
-
-.navbar-setting-button{
-	display:inline-block; 
-	border:3px solid #CCC;
-	padding:8px 15px;
-}
-
-.navbar-setting-button{
-	display:inline-block; 
-	border:3px solid #CCC;
-	padding:8px 15px;
-}
-
-.pattern-setting-button{
-	display:inline-block; 
-	border:3px solid #CCC; 
-	padding:8px 16px;
-}
-
-.setting-info{
-	font-size:12px; 
-	line-height:16px; 
-	margin-top:10px;
-}
-
-.navbar-setting-button.active,
-.pattern-setting-button.active,
-a:hover .pattern-setting-button,
-a:hover .navbar-setting-button,
-#reset-color:hover span{
-	background-color:#4f73b1;
-	color:#FFF;
-	border-color:#4f73b1;
-}	
+/*===============================================*/	
 
 .accommodation a{
     text-decoration: underline;
@@ -3120,9 +1749,6 @@ a:hover .navbar-setting-button,
 
 /* 02.1.1 Fixed-width 							 */
 /* ----------------------------------------------*/
-#nav-bar.fixed-width #nav-wrapper{
-	width:100%;
-}
 
 
 /* ----------------------------------------------*/
@@ -3131,9 +1757,6 @@ a:hover .navbar-setting-button,
 
 /* 04.1.1 Fixed-width 							 */
 /* ----------------------------------------------*/
-#menuicon-bar.fixed-width{
-	width:100%;
-}
 
 /* 06.5.2 Inner Wrapper 						 */
 /* ----------------------------------------------*/
@@ -3153,18 +1776,6 @@ a:hover .navbar-setting-button,
 	height:100px;
 }
 
-#nav-bar-sticky-wrapper{
-	height:100px !important;
-}
-
-#nav-bar.top-bar.stick-it{
-	height:100px; 	
-}
-
-#nav-bar.bottom-bar.stick-it{
-	height:100px; 	
-}
-
 #nav-bar.bottom-bar.outside{
 	bottom:-100px;
 }
@@ -3174,8 +1785,7 @@ a:hover .navbar-setting-button,
 /* ----------------------------------------------*/
 /* 02.1.1 Fixed-width */
 /* 02.1.2 Fluid-width */
-#nav-bar.fluid-width #nav-wrapper,
-#nav-bar.fixed-width #nav-wrapper{
+#nav-bar.fluid-width #nav-wrapper{
 	padding:20px 30px
 }
 
@@ -3196,11 +1806,8 @@ a:hover .navbar-setting-button,
 }
 
 #nav-menu { display: none }
-#nav-menu.sidebar {display:block}	
-#nav-menu.open { display: block; }
 
-#nav-menu,
-.bottom-bar.transparent #nav-menu{	
+#nav-menu{	
 	list-style-type:none; 
 	margin:0; 
 	padding:0 !important; 
@@ -3215,25 +1822,10 @@ a:hover .navbar-setting-button,
 	overflow:auto;
 }
 
-.transparent #nav-menu{
-	width:80% !important;
-	position:absolute; 
-	margin:auto; 
-	top:100%; 
-	left:0; 
-	right:0;
-}
-
-.transparent.stick-it #nav-menu{
-	width:100% !important;
-}
-
 /* 02.2.1 Nav Center */
 /* 02.2.2 Nav Left 	 */
 /* 02.2.3 Nav Right  */
-#nav-bar.nav-center .logo-wrapper,
-#nav-bar.nav-left .logo-wrapper,
-#nav-bar.nav-right .logo-wrapper{
+#nav-bar.nav-center .logo-wrapper{
 	position:relative;
 	float:left;	
 }
@@ -3246,7 +1838,7 @@ a:hover .navbar-setting-button,
 /* ----------------------------------------------*/
 /* 03.1 Parent Menu 						     */
 /* ----------------------------------------------*/
-#nav-menu, #nav-menu ul{
+#nav-menu{
 	-webkit-overflow-scrolling : touch;
 }
 
@@ -3261,10 +1853,6 @@ a:hover .navbar-setting-button,
 	border-bottom:solid thin #f4f2f2;
 }
 
-.transparent #nav-menu li a{
-	color:#666;
-}
-
 #nav-menu li a:hover{
 	background-color:#4f73b1;
 	color:#FFF;
@@ -3276,56 +1864,20 @@ a:hover .navbar-setting-button,
 
 /* 03.1.2 Additional Class For Nav Center */
 /* ----------------------------------------------*/
-.first-child-margin,
-.last-child-margin,
 .split-margin{
 	margin:0
 }
 
 /* ----------------------------------------------*/
 /* 03.2 Child Menu 								 */
-/* ----------------------------------------------*/
-#nav-menu ul{
-	display:block;
-	width:100%;
-	position:relative;
-	top:0;
-	text-align:left;
-	border-top:none;
-}
-
-#nav-menu li > ul li a:before{ 
-	content: '-';
-	padding-right:10px;
-} 
+/* ----------------------------------------------*/ 
 
 /* 03.2.2 Child-Parent Arrow */
-/* ----------------------------------------------*/
-#nav-menu li > ul li a:after { 
-	content: '';
-} 
+/* ----------------------------------------------*/ 
 
 
 /* 03.2.3 More Child */
-/* ----------------------------------------------*/
-#nav-menu ul ul{
-	display:block;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	border:none;
-}
-
-#nav-menu ul ul li a:before{ 
-	content: '- -';
-	padding-right:10px;
-} 
-
-#nav-menu ul ul ul li a:before{ 
-	content: '- - -';
-	padding-right:10px;
-} 
+/* ----------------------------------------------*/ 
 
 
 /* ----------------------------------------------*/
@@ -3340,58 +1892,25 @@ a:hover .navbar-setting-button,
 	z-index:1000;
 }
 
-.transparent #mobile-nav{	
-	color:#FFF;
-}
-
-.transparent.stick-it #mobile-nav{
-	color:#666;	
-}
-
 
 /* ----------------------------------------------*/
 /* 04.1 Menuicon Bar Width & Position 			 */
 /*-----------------------------------------------*/
-#menuicon-bar{
-	top:0;
-	padding:0 30px
-}
 
 /* 04.1.3 Menuicon-Left */
 /* ----------------------------------------------*/
-#menuicon-bar.menuicon-left .logo-outter-wrapper{
-	margin-top:40px;
-}
 
 
 /* 04.1.4 Menuicon-Right */
 /* ----------------------------------------------*/
-#menuicon-bar.menuicon-right .logo-outter-wrapper{
-	margin-top:40px;
-}
 
 /* 04.2.2 Sticky Menu Icon */
 /* ----------------------------------------------*/
-#sticky-menuicon{
-	top:10px;
-}
-
-#menuicon-bar.menuicon-right #sticky-menuicon{
-	right:30px; 
-}
-
-#menuicon-bar.menuicon-left #sticky-menuicon{
-	left:30px; 
-}
 
 
 
 /* 06.2.1 Main Slider Flexslider Control Nav & Paging */
 /* ----------------------------------------------*/
-#main-slider.flexslider:hover .flex-prev { opacity:0.4;  left: 20px; }
-#main-slider.flexslider:hover .flex-next { opacity:0.4; right: 20px; }
-#main-slider.flexslider .flex-direction-nav .flex-prev { opacity:0.4; left: 20px; }
-#main-slider.flexslider .flex-direction-nav .flex-next { opacity:0.4; right: 20px; }
 
 
 /* ----------------------------------------------*/
@@ -3400,27 +1919,15 @@ a:hover .navbar-setting-button,
 
 /* 07.1.1 Page Without Slider					 */
 /* ----------------------------------------------*/
-.no-slider-page #content{
-	padding:140px 0 80px 0;
-}
 
 /* 07.1.2 Page With Slider					 	 */
 /* ----------------------------------------------*/
-.slider-title-page #content{
-	padding:80px 0;
-}
 
 /* 07.1.3 Page With Banner						 */
 /* ----------------------------------------------*/
-.slider-banner-page #content{
-	padding:60px 0 80px 0;
-}
 
 /* 07.1.4 Page With Full Gallery				 */
 /* ----------------------------------------------*/
-.full-gallery-page #content{
-	padding:100px 0 80px 0;
-}
 
 /* 07.1.5 Page With Outside Bottom Bar 			 */
 /* ----------------------------------------------*/
@@ -3430,9 +1937,6 @@ a:hover .navbar-setting-button,
 
 /* 07.2.7 Image & Video Divider					 */
 /* ----------------------------------------------*/
-.divider-wrapper{
-	padding:70px 0;
-}
 
 .image-divider {
 	background-attachment: scroll;
@@ -3441,74 +1945,19 @@ a:hover .navbar-setting-button,
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-#popup-template{
-	width:90%;
-}
 
 
 /*===============================================*/
 /* 13 LOCATION PAGE								 */
 /*===============================================*/
-.interest-icon{
-	width:10%;
-}
-
-.interest-blurb{
-	width:88%;
-}
 
 /* ----------------------------------------------*/
 /* 14.2 Couple Section							 */
 /* ----------------------------------------------*/
-.his-her-name .heart-wrapper{
-	display:none;
-}
 
 /* ----------------------------------------------*/
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
-.story-row.row {
-    display: block;
-	padding:20px 0
-}
-
-.story-row.row [class*="col-"] {
-    display: block;
-	text-align:center;
-}
-
-.story-date-wrapper{
-	margin-bottom:30px;
-}
-
-.story-date{
-	float:none;
-	position:absolute;	
-	top:-70px;
-	left:0;
-	right:0;
-	margin:auto;
-}
-
-.story-date .month-year{
-	font-family: 'Oswald', sans-serif; 
-	font-size:16px; 
-	color:#FFF;
-}
-
-.arrow-right {
-	display:none;
-	float:none;
-}
-
-.arrow-left {
-	display:none;
-	float:none;
-}
-
-.vertical-line{
-	display:none;
-}
 
 
 /* ----------------------------------------------*/
@@ -3535,26 +1984,7 @@ a:hover .navbar-setting-button,
 
 @media screen and (max-width: 768px) and (orientation : landscape) {
 /* 06.5.6 Save The Date Title */
-/* ----------------------------------------------*/	
-#save-the-date{
-	padding-right:40px;
-	padding-top:0;
-	margin-bottom:0px;	
-}
-
-#save{
-	font-size:50px; 
-	line-height:30px
-}
-
-#the-date{
-	font-size:40px;
-}
-
-#date{
-	font-size:30px; 
-	line-height:20px;
-}
+/* ----------------------------------------------*/
 }
 
 
@@ -3562,10 +1992,6 @@ a:hover .navbar-setting-button,
 /*===============================================*/
 /* 11. FORM										 */
 /*===============================================*/
-form .btn{
-	width:100%;
-	white-space:normal;
-}
 }
 
 
@@ -3581,27 +2007,7 @@ p{
 
 
 /* 06.5.6 Save The Date Title */	
-/* ----------------------------------------------*/	
-#save-the-date{
-	padding-right:40px;
-	margin-bottom:0px;
-	padding-top:0;
-	
-}
-
-#save{
-	font-size:60px; 
-	line-height:35px
-}
-
-#the-date{
-	font-size:50px;
-}
-
-#date{
-	font-size:40px; 
-	line-height:25px;
-}
+/* ----------------------------------------------*/
 
 /* 07.2.2 Section Title Wrapper					 */
 /* ----------------------------------------------*/
@@ -3611,13 +2017,9 @@ p{
 	
 /* 07.2.4 Title-Excerpt White Box				 */
 /* ----------------------------------------------*/
-.title-excerpt{
-	padding:20px;
-}
 
 /* 07.2.11 Banner Text				 			 */
 /* ----------------------------------------------*/
-.banner-text.small,
 .banner-text.medium,
 .banner-text.large{
 	padding:0;
@@ -3626,89 +2028,33 @@ p{
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-#popup-template #the-content{
-	padding-right:30px;
-	padding-left:30px;
-	text-align:center;
-}
 
 
 /*===============================================*/
 /* 10 MASONRY GALLERY							 */
 /*===============================================*/
-.masonry-col, .grid-sizer{
-	width:100% !important;
-	margin-bottom:5% !important;
-}
 
 /* ----------------------------------------------*/
 /* 12.1 Couple Section							 */
-/* ----------------------------------------------*/	
-#couple{
-	padding:60px 0 40px 0;
-}
-
-.couple-name{
-	font-size:36px; 
-	padding-top:80px !important;
-	line-height:38px; 
-}
-
-.couple-excerpt{
-	margin-top:20px;
-}
+/* ----------------------------------------------*/
 
 
 
 /* ----------------------------------------------*/
 /* 12.2 Location & Countdown Section			 */
-/* ----------------------------------------------*/	
-#location-countdown .image-divider.auto-height {
-	padding:60px 0;
-}	
-
-#counting{
-	font-size:55px; 
-	line-height:45px
-}
-
-#down{
-	font-size:50px; 
-	line-height:50px;
-}
-
-.simple-countdown .countdown-amount {
-	font-size:16px;
-}
-.simple-countdown .countdown-period {
-	font-size:16px;
-}
+/* ----------------------------------------------*/
 
 /* ----------------------------------------------*/
 /* 12.3 The Wedding Section			 			 */
-/* ----------------------------------------------*/	
-#the-wedding{
-	padding:60px 0 40px 0;
-}
+/* ----------------------------------------------*/
 	
 /* ----------------------------------------------*/
 /* 12.4 RSVP Section				 			 */
 /* ----------------------------------------------*/
-#rsvp{
-	padding:60px 0;
-	background-color:#FFF
-}
 
 /*===============================================*/
 /* 13 LOCATION PAGE								 */
 /*===============================================*/
-.interest-icon{
-	width:20%;
-}
-
-.interest-blurb{
-	width:78%;
-}
 
 /*===============================================*/
 /* 14. ONEPAGE SECTION							 */
@@ -3717,13 +2063,6 @@ p{
 /* ----------------------------------------------*/
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
-#our-story{
-	padding: 80px 0
-}
-
-#end-of-story{
-	margin-top:50px;
-}
 
 /* ----------------------------------------------*/
 /* 14.4 Where When Section						 */
@@ -3735,56 +2074,26 @@ p{
 /* ----------------------------------------------*/
 /* 14.5 Gallery Section							 */
 /* ----------------------------------------------*/
-#gallery-section{
-	padding: 80px 0
-}
 
 /* ----------------------------------------------*/
 /* 14.6 Don't Miss It / Countdown Section		 */
 /* ----------------------------------------------*/
 
-.circle-countdown .countdown-amount {
-	width:45px;
-	height:45px;
-	padding-top:9px;
-	font-size:20px;
-}
-
-.circle-countdown .countdown-period {
-	padding:10px;
-	display:block;
-	text-align:center;
-	font-size:12px;
-	text-transform:uppercase;    
-}
-
 /* ----------------------------------------------*/
 /* 14.7 More Events Section						 */
 /* ----------------------------------------------*/
-#more-events{
-	padding: 80px 0
-}
 
 /* ----------------------------------------------*/
 /* 14.8 Groomsmen Section						 */
 /* ----------------------------------------------*/
-#groomsmen-section{
-	padding: 80px 0
-}
 
 /* ----------------------------------------------*/
 /* 14.9 Bridesmaid Section						 */
 /* ----------------------------------------------*/
-#bridesmaid-section{
-	padding: 80px 0
-}
 
 /* ----------------------------------------------*/
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
-#gift-section{
-	padding: 80px 0; 
-}
 
 /* ----------------------------------------------*/
 /* 14.11 RSVP Section							 */
@@ -3799,40 +2108,10 @@ p{
 @media screen and (max-width: 320px) {
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
-#save-the-date{
-	padding-right:40px;
-	padding-top:0;
-	margin-bottom:0px;
-	
-}
-
-#save{
-	font-size:50px; 
-	line-height:30px
-}
-
-#the-date{
-	font-size:40px;
-}
-
-#date{
-	font-size:30px; 
-	line-height:20px;
-}
 
 /* ----------------------------------------------*/
 /* 12.1 Couple Section							 */
 /* ----------------------------------------------*/
-.couple-name{
-	font-size:30px; 
-	padding-top:70px !important;
-	line-height:30px; 
-}
-
-.couple-excerpt{
-	margin-top:20px;
-
-}
 
 /* ----------------------------------------------*/
 /* 12.5 Footer Section				 			 */
