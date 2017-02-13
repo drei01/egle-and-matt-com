@@ -1989,6 +1989,10 @@ footer .image-divider.fixed-height{
 
 
 @media screen and (max-width: 768px) {	
+   #main-slider .slides, #main-slider.flexslider .slides li div {
+         background-position: 50% -30px !important;
+        background-repeat: no-repeat;
+      }
 /*===============================================*/
 /* 11. FORM										 */
 /*===============================================*/
@@ -1996,6 +2000,14 @@ footer .image-divider.fixed-height{
 
 
 @media screen and (max-width: 480px)  {	
+    #main-slider .slides, #main-slider.flexslider .slides li div {
+         background-position: 50% -30px !important;
+        background-repeat: no-repeat;
+      }
+    
+    .image-divider{
+            background-position: 50% -30px;
+    }
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================
