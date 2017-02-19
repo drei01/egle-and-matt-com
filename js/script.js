@@ -400,30 +400,6 @@ $(document).ready(function() {
 			owl_events.stop()
 		}	
 	}
- 	
-	// 10.3 OWL CAROUSEL - REGISTRY LOGO (ONEPAGE)
-	//------------------------------------------------------------------------------
-	if ($("#registry-logo").length){		
-    	$("#registry-logo").owlCarousel({
-			items : 3, 
-			autoPlay: 2000,
-			stopOnHover: true,
-			pagination: false,
-			navigation: false,
-		});
-		
-		if (device.tablet() || device.mobile()) {
-			var owl_logo = $("#registry-logo").data('owlCarousel');
-			owl_logo.stop()
-		}
-	}
-		
-		
-	// 11. RSVP
-	//==================================================================================
-	if ($("#rsvpform").length){
-		$("#rsvpform").ajaxrsvp();
-	}
 	
 	// 11.1 Custom Checkbox
 	//----------------------------------------------------------------------------------

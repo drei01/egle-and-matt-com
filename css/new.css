@@ -3,7 +3,7 @@
  * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}footer,header,nav,section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}strong{font-weight:700}h1{margin:.67em 0;font-size:2em}input,select,textarea{margin:0;font:inherit;color:inherit}select{text-transform:none}input[type=submit]{-webkit-appearance:button;cursor:pointer}input::-moz-focus-inner{padding:0;border:0}input{line-height:normal}textarea{overflow:auto}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:before,:after{color:#000!important;text-shadow:none!important;background:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}select{background:#fff!important}}@font-face{font-family:'Glyphicons Halflings';src:url("../fonts/glyphicons-halflings-regular.eot");src:url("../fonts/glyphicons-halflings-regular-.eot#iefix") format('embedded-opentype'),url("../fonts/glyphicons-halflings-regular.woff") format('woff'),url("../fonts/glyphicons-halflings-regular.ttf") format('truetype'),url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}h1,h2,h3,.h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1,.h1,h2,h3{margin-top:20px;margin-bottom:10px}h1,.h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}p{margin:0 0 10px}.text-center{text-align:center}ul{margin-top:0;margin-bottom:10px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-md-4,.col-md-6,.col-md-8,.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:992px){.col-md-4,.col-md-6,.col-md-8,.col-md-12{float:left}.col-md-12{width:100%}.col-md-8{width:66.66666667%}.col-md-6{width:50%}.col-md-4{width:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#999;opacity:1}.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}textarea.form-control{height:auto}.form-group{margin-bottom:15px}.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.container:after,.row:after{clear:both}@-ms-viewport{width:device-width} 
+ *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}footer,header,nav,section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}strong{font-weight:700}h1{margin:.67em 0;font-size:2em}img{border:0}input,select,textarea{margin:0;font:inherit;color:inherit}select{text-transform:none}input[type=submit]{-webkit-appearance:button;cursor:pointer}input::-moz-focus-inner{padding:0;border:0}input{line-height:normal}textarea{overflow:auto}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:before,:after{color:#000!important;text-shadow:none!important;background:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}img{page-break-inside:avoid}img{max-width:100%!important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}select{background:#fff!important}}@font-face{font-family:'Glyphicons Halflings';src:url("../fonts/glyphicons-halflings-regular.eot");src:url("../fonts/glyphicons-halflings-regular-.eot#iefix") format('embedded-opentype'),url("../fonts/glyphicons-halflings-regular.woff") format('woff'),url("../fonts/glyphicons-halflings-regular.ttf") format('truetype'),url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}img{vertical-align:middle}.thumbnail>img{display:block;max-width:100%;height:auto}h1,h2,h3,.h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1,.h1,h2,h3{margin-top:20px;margin-bottom:10px}h1,.h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}p{margin:0 0 10px}.text-center{text-align:center}ul{margin-top:0;margin-bottom:10px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-md-2,.col-md-4,.col-md-6,.col-md-8,.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:992px){.col-md-2,.col-md-4,.col-md-6,.col-md-8,.col-md-12{float:left}.col-md-12{width:100%}.col-md-8{width:66.66666667%}.col-md-6{width:50%}.col-md-4{width:33.33333333%}.col-md-2{width:16.66666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#999;opacity:1}.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}textarea.form-control{height:auto}.form-group{margin-bottom:15px}.thumbnail{display:block;padding:4px;margin-bottom:20px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}.thumbnail>img{margin-right:auto;margin-left:auto}a.thumbnail:hover,a.thumbnail:focus{border-color:#337ab7}.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.container:after,.row:after{clear:both}@-ms-viewport{width:device-width} 
 /*** uncss> filename: css/preloader.css ***/
 #preloader{
 	background-color:#f6f6f6;
@@ -244,8 +244,73 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
        -moz-animation-delay: 0.5s;
 			animation-delay: 0.5s; 
 }
+
+.animated {
+	-webkit-animation-duration: 1s;
+	   -moz-animation-duration: 1s;
+	     -o-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	   -moz-animation-fill-mode: both;
+	     -o-animation-fill-mode: both;
+	        animation-fill-mode: both;
+}
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animated.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
@@ -281,20 +346,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
   Modified icons to fit ionicon’s grid from original.
-*/@font-face{font-family:"Ionicons";src:url("fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0");src:url("fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"),url("fonts/ionicons-2.0.1/ionicons.ttf?v=2.0.0") format("truetype"),url("fonts/ionicons-2.0.1/ionicons.woff?v=2.0.0") format("woff"),url("fonts/ionicons-2.0.1/ionicons.svg?v=2.0.0#Ionicons") format("svg");font-weight:normal;font-style:normal}.ion-heart:before,.ion-ios-bell:before,.ion-ios-home:before,.ion-model-s:before,.ion-wineglass:before{display:inline-block;font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ion-heart:before{content:"\f141"}.ion-ios-bell:before{content:"\f3e2"}.ion-ios-home:before{content:"\f448"}.ion-model-s:before{content:"\f2c1"}.ion-wineglass:before{content:"\f2b9"}
+*/@font-face{font-family:"Ionicons";src:url("/css/fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0");src:url("/css/fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"),url("/css/fonts/ionicons-2.0.1/ionicons.ttf?v=2.0.0") format("truetype"),url("/css/fonts/ionicons-2.0.1/ionicons.woff?v=2.0.0") format("woff"),url("/css/fonts/ionicons-2.0.1/ionicons.svg?v=2.0.0#Ionicons") format("svg");font-weight:normal;font-style:normal}.ion-heart:before,.ion-ios-bell:before,.ion-ios-home:before,.ion-model-s:before,.ion-wineglass:before{display:inline-block;font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ion-heart:before{content:"\f141"}.ion-ios-bell:before{content:"\f3e2"}.ion-ios-home:before{content:"\f448"}.ion-model-s:before{content:"\f2c1"}.ion-wineglass:before{content:"\f2b9"}
  
 /*** uncss> filename: https://fonts.googleapis.com/css?family=Oswald:300,200 ***/
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 200;
-  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v12/gov12z69psR1Uu7UJEfiUqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v13/gov12z69psR1Uu7UJEfiUqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 300;
-  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v12/HqHm7BVC_nzzTui2lzQTDaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v13/HqHm7BVC_nzzTui2lzQTDaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
  
 /*** uncss> filename: https://fonts.googleapis.com/css?family=Arvo:400,700 ***/
@@ -578,6 +643,10 @@ a:hover{
 
 .clearboth{
 	clear:both;
+}
+
+a.thumbnail:hover{
+    cursor: pointer;
 }
 
 
@@ -1699,6 +1768,10 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
+#gift-section{
+	padding: 140px 0; 
+	background-color:#FFF
+}
 
 /* ----------------------------------------------*/
 /* 14.11 RSVP Section							 */
@@ -1989,10 +2062,6 @@ footer .image-divider.fixed-height{
 
 
 @media screen and (max-width: 768px) {	
-   #main-slider .slides, #main-slider.flexslider .slides li div {
-         background-position: 50% -30px !important;
-        background-repeat: no-repeat;
-      }
 /*===============================================*/
 /* 11. FORM										 */
 /*===============================================*/
@@ -2000,14 +2069,6 @@ footer .image-divider.fixed-height{
 
 
 @media screen and (max-width: 480px)  {	
-    #main-slider .slides, #main-slider.flexslider .slides li div {
-         background-position: 50% -30px !important;
-        background-repeat: no-repeat;
-      }
-    
-    .image-divider{
-            background-position: 50% -30px;
-    }
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================
@@ -2106,6 +2167,9 @@ p{
 /* ----------------------------------------------*/
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
+#gift-section{
+	padding: 80px 0; 
+}
 
 /* ----------------------------------------------*/
 /* 14.11 RSVP Section							 */

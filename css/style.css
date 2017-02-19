@@ -306,6 +306,10 @@ img.with-border{
 	border:1px solid #6a6a6a;
 }
 
+a.thumbnail:hover{
+    cursor: pointer;
+}
+
 
 /*===============================================*/
 /* 02. NAV BAR  	 							 */
