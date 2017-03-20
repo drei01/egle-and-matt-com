@@ -92,11 +92,13 @@
       	'</div>';
 
  	 	var infowindow = new google.maps.InfoWindow({
-      		content: contentString
+      		content: contentString,
+            pixelOffset: new google.maps.Size(0,10)
   		});
 		
 		var infowindow1 = new google.maps.InfoWindow({
-      		content: contentString1
+      		content: contentString1,
+            pixelOffset: new google.maps.Size(20,30)
   		});
 		
 		
@@ -105,36 +107,6 @@
 		//=======================================================================================
   		infowindow.open(map,marker1);
         infowindow1.open(map,marker2);
-		
-		//ON CLICK MARKER, OPEN INFO WINDOWS
-		//=======================================================================================
-		google.maps.event.addListener(marker1, 'click', function() {
-  			infowindow.open(map,marker1);
-  		});
-        
-        google.maps.event.addListener(marker2, 'click', function() {
-  			infowindow1.open(map,marker2);
-  		});
-
-		//ON MARKER CLICK EVENTS
-		//=======================================================================================
-  		/*google.maps.event.addListener(marker, 'click', function() {
-   	 		map.setZoom(17);
-    		map.setCenter(marker.getPosition());
-			infowindow.open(map,marker);
-  		});
-		
-		google.maps.event.addListener(marker1, 'click', function() {
-   	 		map.setZoom(17);
-    		map.setCenter(marker.getPosition());
-			infowindow1.open(map,marker1);
-  		});
-		
-		google.maps.event.addListener(marker2, 'click', function() {
-   	 		map.setZoom(17);
-    		map.setCenter(marker.getPosition());
-			infowindow1.open(map,marker2);
-  		});*/
 		
 		//ON BOUND EVENTS AND WINDOW RESIZE
 		//=======================================================================================
@@ -148,6 +120,14 @@
 			}
 			is_windowresize=false;
 		});
+        
+        document.getElementById('mapCeremony').onmouseover = function(){
+            map.panTo(marker1.getPosition());
+        };
+        
+        document.getElementById('mapReception').onmouseover = function(){
+            map.panTo(marker2.getPosition());
+        };
 	}
 
 	// LOAD GMAP

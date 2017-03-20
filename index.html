@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/countdown/jquery.countdown.css" type="text/css">
         <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" type="text/css">
         <link rel="stylesheet" href="/css/fonts/ionicons-2.0.1/ionicons.min.css" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Oswald:300,200' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:700,300,200' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
         <link href="css/style.css" rel="stylesheet" media="screen">  
@@ -206,26 +206,31 @@
                     <!-- ROW-3 -->
                 	<div class="row">
                     	<div class="col-md-6 animation fadeIn">
-                        
-                            <div class="de-icon circle small-size inline icon-ceremony">
-                            	<i class="ion-ios-bell"></i>
+                            <div id="mapCeremony">
+                                <div class="de-icon circle small-size inline icon-ceremony">
+                                    <i class="ion-ios-bell"></i>
+                                </div>
+                                <h3 class="inline">CEREMONY - <strong>1 pm</strong></h3>
+                                <p>
+                                    The ceremony will be held at St Botolph's Church in North Cove at 1pm. Please arrive in plenty of time. There's loads of parking outside the church, if you are driving you can put the post code <strong>NR34 7PH</strong> into your sat nav.
+                                </p>
+                                <p>
+                                    The ceremony starts at 1pm so have something to eat before. The Three Horseshoes pub is next to the church for those who fancy a swift half of Suffolk's fine ale.
+                                </p>
+                                <p>
+                                    Natural confetti only please :)
+                                </p>
                             </div>
-                            <h3 class="inline">CEREMONY</h3>
-                            <p>
-                                The ceremony will be held at St Botolph's Church in North Cove at 1pm. Please arrive in plenty of time. There's loads of parking outside the church, if you are driving you can put the post code <strong>NR34 7PH</strong> into your sat nav.
-                            </p>
-                            <p>
-                                The ceremony starts at 1pm so have something to eat before. The Three Horseshoes pub is next to the church for those who fancy a swift half of Suffolk's fine ale.
-                            </p>
-                            <p>
-                                Natural confetti only please :)
-                            </p>
-                               
-                       		<div class="de-icon circle small-size inline">
-                            	<i class="ion-wineglass"></i>
+                            
+                            <div id="mapReception">
+                                <div class="de-icon circle small-size inline">
+                                    <i class="ion-wineglass"></i>
+                                </div>
+                                <h3 class="inline">RECEPTION - <strong>2:30 pm</strong></h3>
+                                <p>
+                                    The reception will be held at <strong>Elms Barn</strong> in Toft Monks (that's <strong>NR34 0EJ</strong> for you sat navvers). We'll head straight there after the ceremony so please make arrangements to get from the church to the venue.
+                                </p>
                             </div>
-                            <h3 class="inline">RECEPTION</h3>
-                            <p>The reception will be held at <strong>Elms Barn</strong> in Toft Monks (that's <strong>NR34 0EJ</strong> for you sat navvers). We'll head straight there after the ceremony so please make arrangements to get from the church to the venue.</p>
                             
 							<div class="de-icon circle small-size inline">
                             	<i class="ion-ios-home"></i>
@@ -363,51 +368,21 @@
                             	</h2>
                             
                             	<p>
-                            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam notn bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices nibh.  Etiam aliquam mauris non hendrerit faucibus. Proin pulvinar congue  ex, vitae 
+                            		Please RSVP to Egle and Matt by <strong>XX/XX/2017</strong>. Our address is:
                             	</p>
+                                <p>
+                                    13 Clark Road,<br/>
+                                    Norwich<br/>
+                                    NR3 1JL
+                                </p>
+                                <p>
+                                    Alternatively, you can email your RSVP to <strong><a href="mailto:matt@matt-reid.co.uk">matt@matt-reid.co.uk</a></strong>
+                                </p>
                             
                             	
                           	</div>
                         </div>
                    </div> <!-- END of ROW-1 -->
-                   
-                  <!-- FORM -->
-                <div class="row">
-                	<div id="message" class="col-md-12 message"> <!-- Show Message --> </div>
-                  
-                	<form method="post" action="rsvp.php" id="rsvpform">
-                		<div class="col-md-6">
-                        	<div id="fullname" class="form-group">
-    							<label for="inputname">*NAME</label>
-    							<input type="text" class="form-control ajax-input" id="inputname" placeholder="" data-required="Name Required" data-output-label="Output Name">
- 							</div>
-                            <div id="email" class="form-group">
-    							<label for="inputemail">*EMAIL</label>
-    							<input type="email" class="form-control ajax-input" id="inputemail" placeholder="" data-required="Email Required" data-output-label="Output Email">
- 							</div>
-                        	<div id="events" class="form-group">
-    							<label for="inputevents">*I/Wee WILL ATTEND</label>
-    							<select id="inputevents" class="form-control ajax-input" data-required="Please Select Events" data-output-label="Output Events">
- 									<option>WE'LL BE THERE!</option>
-  									<option>SORRY, CAN'T MAKE IT</option>
-								</select>
- 							</div>
-                    	</div>
-                    	<div class="col-md-6">
-                        	<div class="form-group">
-    							<label for="inputmessage">LEAVE YOUR MESSAGE</label>
-    							<textarea id="inputmessage" class="form-control ajax-input" rows="14" data-output-label="Output Message"></textarea>
- 							</div> 
-                    	</div>
-                        <div class="col-md-12 text-center">
-                        	<div class="form-group">
-    							<input type="submit" id="submitButton"  name="submitButton" class="button medium reverse" value="SUBMIT">
- 							</div> 
-                    	</div>
-                    </form>
-                   
-              	</div>
-                </div>
            
            	</section>
             
