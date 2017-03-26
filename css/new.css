@@ -1114,6 +1114,11 @@ a.thumbnail:hover{
 	font-size:40px; /*same size with h1*/
 }
 
+.section-title a{
+    text-decoration: underline;
+    color: #4f73b1;
+}
+
 
 
 /* 07.2.3 Icon Title Wrapper					 */
@@ -1336,8 +1341,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	display:inline-block;
 	font-family: 'Oswald', sans-serif;  
 	margin:auto;
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-top:130px;
+	margin-bottom:80px;
 	text-align:center
 }
 
@@ -1749,6 +1754,15 @@ footer .image-divider.fixed-height{
 #map-canvas{
 	height:760px; 
 	width:100%; 
+}
+
+#map-canvas a{
+    text-decoration:underline;
+    color:#4f73b1;
+}
+
+#mapCeremony.hover , #mapReception.hover{
+    background-color: #efefef;
 }
 
 /* ----------------------------------------------*/

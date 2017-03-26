@@ -55,7 +55,7 @@
 		
 		//ADD NEW MARKER WITH LABEL
 		//=======================================================================================
-		var marker1 = new MarkerWithLabel({
+		var weddingMarker = new MarkerWithLabel({
        		position: new google.maps.LatLng(52.446844, 1.621095),
        		draggable: false,
        		raiseOnDrag: false,
@@ -66,7 +66,7 @@
        		labelClass: "labels" // the CSS class for the label
      		});
     
-		var marker2 = new MarkerWithLabel({
+		var receptionMarker = new MarkerWithLabel({
        		position: new google.maps.LatLng(52.489707, 1.582605),
        		draggable: false,
        		raiseOnDrag: false,
@@ -84,11 +84,13 @@
 		//INFO WINDOWS
 		//=======================================================================================
 		var contentString = '<div>'+
-		'WEDDING CEREMONY';
+		'WEDDING CEREMONY <br/>'+
+        '<a href="http://maps.google.com/maps?saddr='+weddingMarker.position.lat()+','+weddingMarker.position.lng()+'" target="_blank">Open google maps</a>'
       	'</div>';
 		
 		var contentString1 = '<div>'+
-		'WEDDING RECEPTION';
+		'WEDDING RECEPTION <br/>'+
+        '<a href="http://maps.google.com/maps?saddr='+receptionMarker.position.lat()+','+receptionMarker.position.lng()+'" target="_blank">Open google maps</a>'
       	'</div>';
 
  	 	var infowindow = new google.maps.InfoWindow({
@@ -105,8 +107,8 @@
 		
 		//OPEN INFO WINDOWS ON LOAD
 		//=======================================================================================
-  		infowindow.open(map,marker1);
-        infowindow1.open(map,marker2);
+  		infowindow.open(map,weddingMarker);
+        infowindow1.open(map,receptionMarker);
 		
 		//ON BOUND EVENTS AND WINDOW RESIZE
 		//=======================================================================================
@@ -115,18 +117,22 @@
 			{
 				//map.setCenter(marker.getPosition());
 				window.setTimeout(function() {
-      				map.panTo(marker1.getPosition());
+      				map.panTo(weddingMarker.getPosition());
     			}, 500);
 			}
 			is_windowresize=false;
 		});
         
         document.getElementById('mapCeremony').onmouseover = function(){
-            map.panTo(marker1.getPosition());
+            $('#mapCeremony').addClass('hover');
+            $('#mapReception').removeClass('hover');
+            map.panTo(weddingMarker.getPosition());
         };
         
         document.getElementById('mapReception').onmouseover = function(){
-            map.panTo(marker2.getPosition());
+            $('#mapReception').addClass('hover');
+            $('#mapCeremony').removeClass('hover');
+            map.panTo(receptionMarker.getPosition());
         };
 	}
 
