@@ -8,7 +8,6 @@
         
         <link rel="icon" href="images/favicon.jpg">
         
-        <!--
     	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/preloader.css"  media="screen">
         <link rel="stylesheet" href="css/preloader-default.css"  media="screen">
@@ -20,12 +19,15 @@
         <link href='https://fonts.googleapis.com/css?family=Oswald:700,300,200' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-        <link href="css/style.css" rel="stylesheet" media="screen">  
-        -->
+        <link href="css/style.css" rel="stylesheet" media="screen">
         
         <!-- UNCSS -->
-    	<link href="css/new.css" rel="stylesheet" media="screen">       
+    	<!--<link href="css/new.css" rel="stylesheet" media="screen">    -->   
        
+        <meta name="defaultLanguage" content="en-GB">
+        <meta name="availableLanguages" content="lt,en-GB">
+        <link rel="localization" href="locales/app.{locale}.ftl">
+        <script defer src="js/l20n.js"></script>
 	</head>
 
 	<body class="outside-bottom-bar-page">
@@ -49,6 +51,32 @@
             </div>
             
         </div> <!--END of PRELOADER-->
+        
+        <ul class="language-selector">
+            <li>
+                <a href="#!" onclick="document.l10n.requestLanguages(['en-GB']);">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="40" height="20">
+                    <clipPath id="t">
+                        <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/>
+                    </clipPath>
+                    <path d="M0,0 v30 h60 v-30 z" fill="#00247d"/>
+                    <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+                    <path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#cf142b" stroke-width="4"/>
+                    <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/>
+                    <path d="M30,0 v30 M0,15 h60" stroke="#cf142b" stroke-width="6"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#!" onclick="document.l10n.requestLanguages(['lt']);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" viewBox="0 0 5 3">
+                    <rect fill="#C1272D" width="5" height="3"/>
+                    <rect fill="#006A44" width="5" height="2"/>
+                    <rect fill="#FDB913" width="5" height="1"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
             
        	<!-- MAIN SLIDER -->
     	<section id="main-slider" class="flexslider fullscreen">      	
@@ -66,11 +94,11 @@
                         	<div class="row">
                         		<div class="col-md-offset-3 col-md-6 animation delay1 fadeInUp">
 									
-                                    <div id="invited">
+                                    <div data-l10n-id="youre-invited" id="invited">
                                     	You're Invited
                                     </div>
                                     <div class="banner-text withlove medium light">
-                                    	<h1>WE ARE GETTING MARRIED</h1>
+                                    	<h1 data-l10n-id="were-getting-married">WE ARE GETTING MARRIED</h1>
                                     </div>                                       
                                     <div id="banner-date">
                                     	16 <span>.</span> 08 <span>.</span> 2017
@@ -122,16 +150,16 @@
                 
                 		<ul id="nav-menu" class="nav-smooth-scroll">
                 			<li class="first-child">
-                        		<a href="index.html#main-slider" title="home">HOME</a>
+                        		<a href="index.html#main-slider" data-l10n-id="home" title="home">HOME</a>
                         	</li>
                     		<li>
-                            	<a href="index.html#where-when" title="where and when">WHERE &amp; WHEN</a>
+                            	<a href="index.html#where-when" data-l10n-id="where-when" title="where and when">WHERE &amp; WHEN</a>
                             </li>   
                             <li class="first-child split-margin">
-                                <a href="index.html#gift-section" title="gifts">GIFTS</a>
+                                <a href="index.html#gift-section" data-l10n-id="gifts" title="gifts">GIFTS</a>
                             </li>
                             <li>
-                            	<a href="index.html#rsvp-section" title="rsvp">RSVP</a>
+                            	<a href="index.html#rsvp-section" data-l10n-id="rsvp" title="rsvp">RSVP</a>
                             </li>
                         	
                 		</ul>
@@ -160,7 +188,7 @@
                     	<div class="col-md-offset-2 col-md-8 text-center">
                         
                         	<div class="section-title animation fadeInUp">
-                        		<h2>
+                        		<h2 data-l10n-id="where-when">
                             		WHERE <span class="and">&amp;</span> WHEN
                             	</h2>
                             
@@ -183,15 +211,15 @@
                                   
                                   <div class="row">
                                 		<div class="col-md-4">
-                                        	<h3>16TH AUGUST 2017</h3>
+                                        	<h3 data-l10n-id="date">16TH AUGUST 2017</h3>
                                         </div>
                                         <div class="col-md-4">
                                         	<div class="border-column">
-                                        		<h3>ONE O'CLOCK IN THE AFTERNOON</h3>
+                                        		<h3 data-l10n-id="time">ONE O'CLOCK IN THE AFTERNOON</h3>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                        	<h3>ST. BOTOLPH'S CHURCH</h3>
+                                        	<h3 data-l10n-id="place">ST. BOTOLPH'S CHURCH</h3>
                                         </div>
                                   		
                                   </div>
@@ -210,14 +238,14 @@
                                 <div class="de-icon circle small-size inline icon-ceremony">
                                     <i class="ion-ios-bell"></i>
                                 </div>
-                                <h3 class="inline">CEREMONY - <strong>1 pm</strong></h3>
-                                <p>
+                                <h3 class="inline" data-l10n-id="ceremony">CEREMONY - <strong>1 pm</strong></h3>
+                                <p data-l10n-id="ceremony-p1">
                                     The ceremony will be held at St Botolph's Church in North Cove at 1pm. Please arrive in plenty of time. There's loads of parking outside the church, if you are driving you can put the post code <strong>NR34 7PH</strong> into your sat nav.
                                 </p>
-                                <p>
+                                <p data-l10n-id="ceremony-p2">
                                     The ceremony starts at 1pm so have something to eat before. The Three Horseshoes pub is next to the church for those who fancy a swift half of Suffolk's fine ale.
                                 </p>
-                                <p>
+                                <p data-l10n-id="ceremony-p3">
                                     Natural confetti only please :)
                                 </p>
                             </div>
@@ -226,8 +254,8 @@
                                 <div class="de-icon circle small-size inline">
                                     <i class="ion-wineglass"></i>
                                 </div>
-                                <h3 class="inline">RECEPTION - <strong>2:30 pm</strong></h3>
-                                <p>
+                                <h3 class="inline"><span data-l10n-id="reception">RECEPTION</span> - <strong>2:30 pm</strong></h3>
+                                <p data-l10n-id="reception-p1">
                                     The reception will be held at <strong>Elms Barn</strong> in Toft Monks (that's <strong>NR34 0EJ</strong> for you sat navvers). We'll head straight there after the ceremony so please make arrangements to get from the church to the venue.
                                 </p>
                             </div>
@@ -235,16 +263,16 @@
                             <div class="de-icon circle small-size inline">
                             	<i class="ion-bowtie"></i>
                             </div>
-                            <h3 class="inline">DRESS</h3>
-                            <p>
+                            <h3 class="inline" data-l10n-id="dress">DRESS</h3>
+                            <p data-l10n-id="dress-p1">
                                 Dress is formal. That's suit, tie and dress (or any combination of). Bear in mind that it may be hot so please wear something comfortable.
                             </p>
                             
 							<div class="de-icon circle small-size inline">
                             	<i class="ion-ios-home"></i>
                             </div>
-                            <h3 class="inline">ACCOMODATION</h3>
-                            <p>
+                            <h3 class="inline" data-l10n-id="accomodation">ACCOMODATION</h3>
+                            <p data-l10n-id="accomodation-p1">
                                 Beccles is 4 miles away (a 10 minute taxi ride) and has plenty of accomodation to suit all budgets. Some options are:
                             </p>
                             <ul class="accommodation">
@@ -258,8 +286,8 @@
                             <div class="de-icon circle small-size inline">
                             	<i class="ion-model-s"></i>
                             </div>
-                            <h3 class="inline">TAXIS</h3>
-                            <p>
+                            <h3 class="inline" data-l10n-id="taxis">TAXIS</h3>
+                            <p data-l10n-id="taxis-blurb">
                                 Beccles only has a few taxi firms so it's advisable to pre book.
                             </p>
                             <ul class="accommodation">
@@ -292,12 +320,12 @@
                     	<div class="col-md-offset-2 col-md-8 text-center">
                         
                         	<div class="section-title animation fadeInUp animated" style="visibility: visible;">
-                        		<h2>
+                        		<h2 data-l10n-id="gifts">
                             		GIFTS
                             	</h2>
                             
-                            	<p>
-                            		Having you share our special day is the best gift to us. Please don't feel the need to give us anything else. If you must however, we have a John Lewis gift list (number <strong>702348</strong>) and Honeyfund to help pay for our honeymoon.
+                            	<p data-l10n-id="gifts-p1">
+                            		Having you share our special day is the best gift to us. Please don't feel the need to give us anything else. If you must however, we have a <a href="https://www.honeyfund.co.uk/wedding/EgleAndMatt" target="_blank">Honeyfund</a> to help pay for our honeymoon in Cuba later in the year.
                             	</p>
                             
                             	
@@ -307,14 +335,8 @@
                    
                    <!-- ROW-1 -->
                 	<div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-4 text-center">
-                    		<a href="https://www.johnlewisgiftlist.com/giftint/JSPs/GiftList/BuyGifts/GuestFindAList.jsp" class="thumbnail" target="_blank">
-                                <img src="images/john-lewis-logo.jpg" alt="Our John Lewis gift list">
-                            </a>
-                        </div>
-                    	<div class="col-md-4 text-center">
-                    		<a href="https://www.honeyfund.co.uk/wedding/EgleAndMatt" class="thumbnail" target="_blank">
+                    	<div class="col-md-4 col-md-offset-4 text-center">
+                    		<a href="https://www.honeyfund.co.uk/wedding/EgleAndMatt" class="thumbnail no-border" target="_blank">
                                 <img src="images/honeyfund-logo.jpg" alt="Our honeyfund gift list">
                             </a>
                         </div>
@@ -337,7 +359,7 @@
                     			
                                 	
                                 <div class="banner-text withlove large light animation fadeInUp">
-                                    <h2 class="h1">ARE YOU IN?</h2>
+                                    <h2 class="h1" data-l10n-id="are-you-in">ARE YOU IN?</h2>
                                 </div>
                      
                      		</div>
@@ -363,17 +385,17 @@
                             		RSVP
                             	</h2>
                             
-                            	<p>
+                            	<p data-l10n-id="rsvp-p1">
                             		Please RSVP (including your choice of fish/vegan) to Egle and Matt by <strong>15/05/2017</strong>. Our address is:
                             	</p>
                                 <p>
-                                    13 Clark Road,<br/>
-                                    Norwich<br/>
-                                    NR3 1JL
+                                    <span data-l10n-id="address-line1">13 Clarke Road,</span><br/>
+                                    <span data-l10n-id="address-line2">Norwich</span><br/>
+                                    <span data-l10n-id="address-line3">NR3 1JL</span>
                                 </p>                                
                                 
                                 <p>
-                                    <strong>To upload a childhood photo of yourself and secure your place, <a href="/rsvp">click here</a>.</strong>
+                                    <strong data-l10n-id="rsvp-p2">To upload a childhood photo of yourself and secure your place, <a href="/rsvp">click here</a>.</strong>
                                 </p>
                             
                             	
@@ -407,8 +429,8 @@
                           				
                                         <div class="animation fadeInUp">
                      						<div id="thank-you">
-                     							<div id="thank">Thank</div>
-                            					<div id="you">You</div>
+                     							<div id="thank" data-l10n-id="thank">Thank</div>
+                            					<div id="you" data-l10n-id="you">You</div>
                      						</div>
                                         </div>
                         
@@ -433,7 +455,6 @@
                 </div>
             </footer>
            
-            
 		<!-- jQuery -->
     	<script src="js/jquery-1.11.1.min.js"></script>
         <!-- Pace -->

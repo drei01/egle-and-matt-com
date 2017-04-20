@@ -3,7 +3,7 @@
  * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}footer,header,nav,section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}strong{font-weight:700}h1{margin:.67em 0;font-size:2em}img{border:0}input,select,textarea{margin:0;font:inherit;color:inherit}select{text-transform:none}input[type=submit]{-webkit-appearance:button;cursor:pointer}input::-moz-focus-inner{padding:0;border:0}input{line-height:normal}textarea{overflow:auto}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:before,:after{color:#000!important;text-shadow:none!important;background:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}img{page-break-inside:avoid}img{max-width:100%!important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}select{background:#fff!important}}@font-face{font-family:'Glyphicons Halflings';src:url("../fonts/glyphicons-halflings-regular.eot");src:url("../fonts/glyphicons-halflings-regular-.eot#iefix") format('embedded-opentype'),url("../fonts/glyphicons-halflings-regular.woff") format('woff'),url("../fonts/glyphicons-halflings-regular.ttf") format('truetype'),url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}img{vertical-align:middle}.thumbnail>img{display:block;max-width:100%;height:auto}h1,h2,h3,.h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1,.h1,h2,h3{margin-top:20px;margin-bottom:10px}h1,.h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}p{margin:0 0 10px}.text-center{text-align:center}ul{margin-top:0;margin-bottom:10px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-md-2,.col-md-4,.col-md-6,.col-md-8,.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:992px){.col-md-2,.col-md-4,.col-md-6,.col-md-8,.col-md-12{float:left}.col-md-12{width:100%}.col-md-8{width:66.66666667%}.col-md-6{width:50%}.col-md-4{width:33.33333333%}.col-md-2{width:16.66666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#999;opacity:1}.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}textarea.form-control{height:auto}.form-group{margin-bottom:15px}.thumbnail{display:block;padding:4px;margin-bottom:20px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}.thumbnail>img{margin-right:auto;margin-left:auto}a.thumbnail:hover,a.thumbnail:focus{border-color:#337ab7}.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.container:after,.row:after{clear:both}@-ms-viewport{width:device-width} 
+ *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}footer,header,nav,section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}strong{font-weight:700}h1{margin:.67em 0;font-size:2em}img{border:0}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:before,:after{color:#000!important;text-shadow:none!important;background:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}img{page-break-inside:avoid}img{max-width:100%!important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}@font-face{font-family:'Glyphicons Halflings';src:url("fonts/glyphicons-halflings-regular.eot");src:url("fonts/glyphicons-halflings-regular-.eot#iefix") format('embedded-opentype'),url("fonts/glyphicons-halflings-regular.woff") format('woff'),url("fonts/glyphicons-halflings-regular.ttf") format('truetype'),url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}img{vertical-align:middle}.thumbnail>img{display:block;max-width:100%;height:auto}h1,h2,h3,.h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1,.h1,h2,h3{margin-top:20px;margin-bottom:10px}h1,.h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}p{margin:0 0 10px}.text-center{text-align:center}ul{margin-top:0;margin-bottom:10px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-md-4,.col-md-6,.col-md-8,.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:992px){.col-md-4,.col-md-6,.col-md-8,.col-md-12{float:left}.col-md-12{width:100%}.col-md-8{width:66.66666667%}.col-md-6{width:50%}.col-md-4{width:33.33333333%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}}.thumbnail{display:block;padding:4px;margin-bottom:20px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}.thumbnail>img{margin-right:auto;margin-left:auto}a.thumbnail:hover,a.thumbnail:focus{border-color:#337ab7}.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.container:after,.row:after{clear:both}@-ms-viewport{width:device-width} 
 /*** uncss> filename: css/preloader.css ***/
 #preloader{
 	background-color:#f6f6f6;
@@ -346,9 +346,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
   Modified icons to fit ionicon’s grid from original.
-*/@font-face{font-family:"Ionicons";src:url("/css/fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0");src:url("/css/fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"),url("/css/fonts/ionicons-2.0.1/ionicons.ttf?v=2.0.0") format("truetype"),url("/css/fonts/ionicons-2.0.1/ionicons.woff?v=2.0.0") format("woff"),url("/css/fonts/ionicons-2.0.1/ionicons.svg?v=2.0.0#Ionicons") format("svg");font-weight:normal;font-style:normal}.ion-heart:before,.ion-ios-bell:before,.ion-ios-home:before,.ion-model-s:before,.ion-wineglass:before{display:inline-block;font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ion-heart:before{content:"\f141"}.ion-ios-bell:before{content:"\f3e2"}.ion-ios-home:before{content:"\f448"}.ion-model-s:before{content:"\f2c1"}.ion-wineglass:before{content:"\f2b9"}.ion-bowtie:before{content:"\f3c0"}
+*/@font-face{font-family:"Ionicons";src:url("fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0");src:url("fonts/ionicons-2.0.1/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"),url("fonts/ionicons-2.0.1/ionicons.ttf?v=2.0.0") format("truetype"),url("fonts/ionicons-2.0.1/ionicons.woff?v=2.0.0") format("woff"),url("fonts/ionicons-2.0.1/ionicons.svg?v=2.0.0#Ionicons") format("svg");font-weight:normal;font-style:normal}.ion-bowtie:before,.ion-heart:before,.ion-ios-bell:before,.ion-ios-home:before,.ion-model-s:before,.ion-wineglass:before{display:inline-block;font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ion-bowtie:before{content:"\f3c0"}.ion-heart:before{content:"\f141"}.ion-ios-bell:before{content:"\f3e2"}.ion-ios-home:before{content:"\f448"}.ion-model-s:before{content:"\f2c1"}.ion-wineglass:before{content:"\f2b9"}
  
-/*** uncss> filename: https://fonts.googleapis.com/css?family=Oswald:300,200 ***/
+/*** uncss> filename: https://fonts.googleapis.com/css?family=Oswald:700,300,200 ***/
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
@@ -361,13 +361,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-weight: 300;
   src: local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v13/HqHm7BVC_nzzTui2lzQTDaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
-  font-weight: 600;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v13/smkSb2csQFrK-wxLDSe5R4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v13/bH7276GfdCjMjApa_dkG6aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
+ 
 /*** uncss> filename: https://fonts.googleapis.com/css?family=Arvo:400,700 ***/
 @font-face {
   font-family: 'Arvo';
@@ -1246,52 +1246,6 @@ a.thumbnail:hover{
 
 /* 07.2.10 BUTTON					 			 */
 /* ----------------------------------------------*/
-a.de-button, input[type=submit]{
-	display:inline-block; 	
-	margin:0 auto; 
-	margin-top:20px; 
-	background-color:#FFF; 
-	font-family: 'Oswald', sans-serif; 	
-	border:solid 1px #6a6a6a
-}
-
-a.de-button.outline{
-	background-color:transparent; 
-	border:solid 1px #FFF;
-	color:#FFF;
-}
-
-input[type=submit].reverse{
-	background-color:#4f73b1; 
-	border:solid 1px #4f73b1;
-	color:#FFF;
-}
-
-a.de-button.medium, input[type=submit].medium{
-	padding:10px 50px; 
-	font-size:16px; 
-}
-
-a.de-button:hover, input[type=submit]:hover{
-	background-color:#4f73b1;
-	border-color:#4f73b1;
-	color:#FFF;
-	text-decoration:none;
-}
-
-input[type=submit].reverse:hover{
-	background-color:#FFF;
-	border-color:#FFF;
-	color:#6a6a6a;
-	text-decoration:none;
-	border:solid 1px #6a6a6a
-}
-
-input[type=submit]:disabled, input[type=submit]:hover:disabled{
-   background-color:#CCC !important;
-   border:solid 1px #CCC !important;
-   color:#FFF !important;;
-}
 
 /* 07.2.11 Banner Text				 			 */
 /* ----------------------------------------------*/
@@ -1341,8 +1295,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	display:inline-block;
 	font-family: 'Oswald', sans-serif;  
 	margin:auto;
-	margin-top:130px;
-	margin-bottom:80px;
+	margin-top:30px;
+	margin-bottom:30px;
 	text-align:center
 }
 
@@ -1552,24 +1506,10 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /*-----------------------------------------------*/
 /* 11.1 Form Group								 */
 /*-----------------------------------------------*/
-.form-group{
-	margin-bottom: 30px;
-}
 
 /*-----------------------------------------------*/
 /* 11.2 Form Control							 */
 /*-----------------------------------------------*/
-.form-control {
-   	height:35px;
-	border-radius:0;
-	font-size:13px;
-}
-
-.form-control:focus {
-	border-color: #cccccc;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #cccccc;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #cccccc;
-}
 
 /*-----------------------------------------------*/
 /* 11.3 Input Group								 */
@@ -1578,11 +1518,6 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /*-----------------------------------------------*/
 /* 11.4 Label									 */
 /*-----------------------------------------------*/
-form label{
-	font-family: 'Oswald', sans-serif;
-	font-size:14px;
-	font-weight:normal;
-}
 
 /*-----------------------------------------------*/
 /* 11.5 Button									 */
@@ -1596,26 +1531,23 @@ form label{
 /* 11.7 Select Option							 */
 /*-----------------------------------------------*/
 
-select option{
-	padding:4px 0 !important;
-}
-
-option{
-	color:#747474;
-}
-
 /*-----------------------------------------------*/
 /* 11.8 Message									 */
 /*-----------------------------------------------*/
-.message{
-	margin-bottom:20px;
-	font-size:13px
-}
 
 
 /*-----------------------------------------------*/
 /* 11.9 Validation								 */
 /*-----------------------------------------------*/
+
+#attending .image-divider{
+    background-position: 50% 20%;
+    min-height: 500px
+}
+
+.no-border{
+    border: none;
+}
 
 
 /*===============================================*/
@@ -1754,15 +1686,6 @@ footer .image-divider.fixed-height{
 #map-canvas{
 	height:760px; 
 	width:100%; 
-}
-
-#map-canvas a{
-    text-decoration:underline;
-    color:#4f73b1;
-}
-
-#mapCeremony.hover , #mapReception.hover{
-    background-color: #efefef;
 }
 
 /* ----------------------------------------------*/
