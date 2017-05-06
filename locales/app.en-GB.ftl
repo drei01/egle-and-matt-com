@@ -22,10 +22,12 @@ taxis-blurb = Beccles only has a few taxi firms so it's advisable to pre book.
 gifts = GIFTS
 gifts-p1 = Having you share our special day is the best gift to us. Please don't feel the need to give us anything else. If you must however, we have a <a href="https://www.honeyfund.co.uk/wedding/EgleAndMatt" target="_blank">Honeyfund</a> to help pay for our honeymoon in Cuba later in the year.
 are-you-in = ARE YOU IN?
+gifts-p2 = Alternatively, we harbour an ambition to donate a field of <a href="https://www.oxfam.org.uk/shop/oxfam-unwrapped/animal-lovers/goat-ou9010ml">goats</a> to Africa. The more goats the better.
 rsvp-p1 = Please RSVP (including your choice of fish/vegan) to Egle and Matt by <strong>15/05/2017</strong>. Our address is:
 address-line1 = 13 Clarke Road,
 address-line2 = Norwich
 address-line3 = NR3 1JL
+rsvp-or-email = Or email <a href="email:mc.reidie@gmail.com">mc.reidie@gmail.com</a>
 rsvp-p2 = To upload a childhood photo of yourself and secure your place, <a href="/rsvp">click here</a>.
 thank = Thank
 you = You
